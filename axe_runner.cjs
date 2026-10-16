@@ -9,6 +9,7 @@ const AxeBuilder = require('@axe-core/playwright').default;
     if (!['http:', 'https:'].includes(target.protocol) || target.username || target.password || !allowed.includes(target.origin)) throw new Error('target_not_allowed');
     browser = await chromium.launch({headless: true});
     const context = await browser.newContext({serviceWorkers: 'block'});
+    await context.routeWebSocket('**/*', socket => socket.close());
     await context.route('**/*', route => {
       try { return new URL(route.request().url()).origin === target.origin ? route.continue() : route.abort(); }
       catch { return route.abort(); }
