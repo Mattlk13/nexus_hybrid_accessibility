@@ -1,4 +1,8 @@
 """NEXUS accessibility checks with computed contrast and explicit audit limitations."""
+import asyncio
+import json
+import os
+from pathlib import Path
 import logging
 import re
 from typing import Dict
@@ -34,8 +38,30 @@ class AccessibilityEngine:
                 raise ValueError("invalid_url")
         except (TypeError, ValueError):
             return {"success": False, "error": "invalid_url", "url": url}
-        return {"success": False, "error": "page_audit_runner_not_configured",
-                "url": url, "score": None, "issues": None}
+        origins = os.getenv("NEXUS_AUDIT_ORIGINS", "").split(",")
+        if not any(origins):
+            return {"success": False, "error": "page_audit_runner_not_configured",
+                    "url": url, "score": None, "issues": None}
+        if parsed.username or parsed.password or f"{parsed.scheme}://{parsed.netloc}" not in origins:
+            return {"success": False, "error": "target_not_allowed"}
+        process = None
+        try:
+            process = await asyncio.create_subprocess_exec(
+                "node", str(Path(__file__).with_name("axe_runner.cjs")), url,
+                stdout=asyncio.subprocess.PIPE, stderr=asyncio.subprocess.DEVNULL)
+            output, _ = await asyncio.wait_for(process.communicate(), timeout=45)
+            result = json.loads(output)
+            if not isinstance(result, dict) or not result.get("success") or process.returncode:
+                return {"success": False, "error": "browser_audit_failed"}
+            if not isinstance(result.get("issues"), list) or not result.get("engine_version"):
+                return {"success": False, "error": "invalid_audit_evidence"}
+            return {**result, "url": url}
+        except (OSError, ValueError, asyncio.TimeoutError):
+            return {"success": False, "error": "browser_audit_failed"}
+        finally:
+            if process is not None and process.returncode is None:
+                process.kill()
+                await process.wait()
 
     async def check_contrast(self, fg: str, bg: str) -> Dict:
         try:
