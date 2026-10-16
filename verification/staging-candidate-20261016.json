@@ -1,0 +1,105 @@
+{
+  "origin": "https://nexus2-staging.hm2krebsmatthewl.workers.dev",
+  "mode": "candidate_html_overlay",
+  "viewports": [
+    {
+      "width": 320,
+      "violations": [],
+      "incomplete": [
+        "aria-prohibited-attr",
+        "color-contrast",
+        "label-content-name-mismatch"
+      ],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "focus": {
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "visible": true
+      }
+    },
+    {
+      "width": 768,
+      "violations": [],
+      "incomplete": [
+        "aria-prohibited-attr",
+        "color-contrast",
+        "label-content-name-mismatch"
+      ],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "focus": {
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "visible": true
+      }
+    },
+    {
+      "width": 1024,
+      "violations": [],
+      "incomplete": [
+        "aria-prohibited-attr",
+        "color-contrast",
+        "label-content-name-mismatch"
+      ],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "focus": {
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "visible": true
+      }
+    },
+    {
+      "width": 1440,
+      "violations": [],
+      "incomplete": [
+        "aria-prohibited-attr",
+        "color-contrast",
+        "label-content-name-mismatch"
+      ],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "focus": {
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "visible": true
+      }
+    }
+  ],
+  "journeys": [
+    {
+      "width": 320,
+      "marketplaceSearch": "pass",
+      "privateDraftRefresh": "pass",
+      "directorySearch": "pass",
+      "skipLinkKeyboard": "pass"
+    },
+    {
+      "width": 768,
+      "marketplaceSearch": "pass",
+      "privateDraftRefresh": "pass",
+      "directorySearch": "pass",
+      "skipLinkKeyboard": "pass"
+    },
+    {
+      "width": 1024,
+      "marketplaceSearch": "pass",
+      "privateDraftRefresh": "pass",
+      "directorySearch": "pass",
+      "skipLinkKeyboard": "pass"
+    },
+    {
+      "width": 1440,
+      "marketplaceSearch": "pass",
+      "privateDraftRefresh": "pass",
+      "directorySearch": "pass",
+      "skipLinkKeyboard": "pass"
+    }
+  ],
+  "limitations": [
+    "AI inference and external handoffs not submitted",
+    "Manual screen-reader review remains separate"
+  ]
+}
+

@@ -7,7 +7,7 @@ const AxeBuilder = require('@axe-core/playwright').default;
     const target = new URL(process.argv[2]);
     const allowed = (process.env.NEXUS_AUDIT_ORIGINS || '').split(',').filter(Boolean);
     if (!['http:', 'https:'].includes(target.protocol) || target.username || target.password || !allowed.includes(target.origin)) throw new Error('target_not_allowed');
-    browser = await chromium.launch({headless: true});
+    browser = await chromium.launch({headless:true,...(process.env.NEXUS_BROWSER_CHANNEL?{channel:process.env.NEXUS_BROWSER_CHANNEL}:{})});
     const context = await browser.newContext({serviceWorkers: 'block'});
     await context.routeWebSocket('**/*', socket => socket.close());
     await context.route('**/*', route => {

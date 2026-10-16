@@ -4,13 +4,21 @@ const assert=require('node:assert/strict');
 const fs=require('node:fs');
 (async()=>{
  const origin='https://nexus2-staging.hm2krebsmatthewl.workers.dev';
- const browser=await chromium.launch({headless:true});
- const evidence={origin,viewports:[],journeys:[],limitations:['AI inference and external handoffs not submitted','Manual screen-reader review remains separate']};
+ const browser=await chromium.launch({headless:true,...(process.env.NEXUS_BROWSER_CHANNEL?{channel:process.env.NEXUS_BROWSER_CHANNEL}:{})});
+ const candidate=process.env.NEXUS_CANDIDATE_LOGO_FIX==='1';
+ const evidence={origin,mode:candidate?'candidate_html_overlay':'deployed_staging',viewports:[],journeys:[],limitations:['AI inference and external handoffs not submitted','Manual screen-reader review remains separate']};
  fs.mkdirSync('evidence',{recursive:true});
  try {
   for(const width of [320,768,1024,1440]){
    const context=await browser.newContext({viewport:{width,height:900},serviceWorkers:'block'});
-   const page=await context.newPage();const errors=[];
+   if(candidate) await context.route(origin+'/',async route=>{
+    const response=await route.fetch();let html=await response.text();
+    html=html.replace('aria-label="Nexus home"', 'aria-label="N Nexus home"').replace('<span class="brandMark">N</span><span>Nexus</span>', '<span class="brandMark">N</span> <span>Nexus</span>');
+    await route.fulfill({response,body:html});
+   });
+   const page=await context.newPage();const errors=[];const failedRequests=[];
+   page.on('requestfailed',request=>failedRequests.push({path:new URL(request.url()).pathname,error:request.failure()?.errorText}));
+   page.on('response',response=>{if(response.status()>=400&&response.url().startsWith(origin)) failedRequests.push({path:new URL(response.url()).pathname,status:response.status()});});
    page.on('pageerror',e=>errors.push(e.name));
    const response=await page.goto(origin,{waitUntil:'networkidle',timeout:30000});
    assert.equal(response.status(),200);
@@ -23,9 +31,9 @@ const fs=require('node:fs');
    await page.screenshot({path:`evidence/staging-${width}-focus.png`});
    await page.keyboard.press('Enter');
    const audit=await new AxeBuilder({page}).analyze();
-   evidence.viewports.push({width,violations:audit.violations.map(v=>({id:v.id,impact:v.impact,nodes:v.nodes.map(n=>n.target)})),incomplete:audit.incomplete.map(v=>v.id),consoleErrors:errors,focus});
+   evidence.viewports.push({width,violations:audit.violations.map(v=>({id:v.id,impact:v.impact,nodes:v.nodes.map(n=>n.target)})),incomplete:audit.incomplete.map(v=>v.id),consoleErrors:errors,failedRequests,focus});
    await page.screenshot({path:`evidence/staging-${width}.png`,fullPage:true});
-   assert.equal(audit.violations.length,0,'axe violations at '+width);
+
    const filter=page.getByRole('searchbox',{name:'Filter listings',exact:true});
    await filter.fill('bicycle');
    await page.getByRole('heading',{name:'Commuter bicycle',exact:true}).waitFor({state:'visible'});
@@ -40,12 +48,13 @@ const fs=require('node:fs');
    const directory=page.getByRole('searchbox',{name:'Search the directory',exact:true});
    await directory.fill('LibreChat');
    await directory.press('Enter');
-   await page.getByRole('heading',{name:'LibreChat',exact:true}).waitFor({state:'visible'});
-   assert.equal(await page.getByRole('heading',{name:'ChatGPT',exact:true}).isVisible(),false);
+   await page.locator('#toolCards').getByRole('heading',{name:'LibreChat',exact:true}).waitFor({state:'visible'});
+   assert.equal(await page.locator('#toolCards').getByRole('heading',{name:'ChatGPT',exact:true}).isVisible(),false);
    evidence.journeys.push({width,marketplaceSearch:'pass',privateDraftRefresh:'pass',directorySearch:'pass',skipLinkKeyboard:'pass'});
-   assert.deepEqual(errors,[]);
+   assert.deepEqual(errors,[]);assert.deepEqual(failedRequests,[]);
    await context.close();
   }
-  console.log('PASS: real NEXUS staging journeys, keyboard skip-link/focus and responsive axe acceptance');
+  assert.equal(evidence.viewports.reduce((n,v)=>n+v.violations.length,0),0,'axe violations across viewport matrix');
+  console.log('PASS: NEXUS journeys, keyboard skip-link/focus and responsive axe; mode='+evidence.mode);
  } finally {fs.writeFileSync('evidence/staging-results.json',JSON.stringify(evidence,null,2));await browser.close();}
 })().catch(e=>{console.error(e.message);process.exitCode=1;});
