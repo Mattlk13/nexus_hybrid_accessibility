@@ -31,3 +31,11 @@ jobs:
         run: npm run test:browser
       - name: Dependency security gate
         run: npm audit --audit-level=high
+      - name: Actual NEXUS staging journeys and responsive accessibility
+        run: node test_staging.cjs
+      - uses: actions/upload-artifact@v4
+        if: ${{ !cancelled() }}
+        with:
+          name: nexus-staging-accessibility-evidence
+          path: evidence/
+          retention-days: 14
