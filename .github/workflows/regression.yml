@@ -33,6 +33,8 @@ jobs:
         run: npm audit --audit-level=high
       - name: Actual NEXUS staging journeys and responsive accessibility
         run: node test_staging.cjs
+      - name: Platform contrast and keyboard field focus
+        run: node test_platform.cjs
       - uses: actions/upload-artifact@v4
         if: ${{ !cancelled() }}
         with:

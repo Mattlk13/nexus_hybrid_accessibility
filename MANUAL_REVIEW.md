@@ -18,3 +18,7 @@ Full manual keyboard traversal, assistive-technology/screen-reader acceptance, a
 Reference: [W3C Understanding SC2.5.3, symbolic text characters](https://www.w3.org/WAI/WCAG22/Understanding/label-in-name.html#symbolic-text-characters). This is a scoped manual DOM adjudication, not a replacement for the remaining reviews.
 
 Post-tablet-fix Edge follow-up: all four deployed widths and journeys pass in 37.23s; see verification/staging-deployed-20261017.json. Linux Chromium must pass independently.
+
+## Follow-up: platform contrast and input focus
+
+Resolved real pale-on-light platform heading, eyebrow and description contrast defect in Nexus2 commit 42ecfa5. Scoped foreground/background-envelope tests require at least 4.5:1 for all reviewed text, including large headings; assert the reviewed gradient palette and decorative grid opacity; verify placeholder contrast. Restored visible keyboard outlines for search inputs, textareas and select. Actual deployed Edge acceptance passes at 320/768/1024/1440; screenshots visually reviewed at desktop. The existing actual staging journeys pass again. Evidence: verification/platform-regression-20261017.json. This closes these specific defects, not the entire 772-node incomplete inventory. Full contrast/state, assistive-technology and authenticated-journey acceptance remains open. Previous Linux staging runs 38992511943 and 38992516225 passed.
