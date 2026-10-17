@@ -1,0 +1,45 @@
+name: NEXUS regression tests
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+      - fix/no-fabricated-success-20261016
+permissions:
+  contents: read
+concurrency:
+  group: regression-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Run fail-closed regression tests
+        run: python -m unittest discover -v -p 'test_*.py'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+      - run: npm ci --ignore-scripts
+      - run: npx --no-install playwright install --with-deps chromium
+      - name: Real Chromium and axe regression
+        run: npm run test:browser
+      - name: Dependency security gate
+        run: npm audit --audit-level=high
+      - name: Actual NEXUS staging journeys and responsive accessibility
+        run: node test_staging.cjs
+      - name: Platform contrast and keyboard field focus
+        run: node test_platform.cjs
+      - name: Actual integration documentation preview
+        run: node test_docs.cjs
+      - uses: actions/upload-artifact@v4
+        if: ${{ !cancelled() }}
+        with:
+          name: nexus-staging-accessibility-evidence
+          path: evidence/
+          retention-days: 14

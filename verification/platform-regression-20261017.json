@@ -1,0 +1,273 @@
+{
+  "origin": "https://nexus2-staging.hm2krebsmatthewl.workers.dev",
+  "mode": "deployed_staging",
+  "widths": [
+    {
+      "width": 320,
+      "text": [
+        {
+          "text": "Platform Bridge",
+          "color": "rgb(52, 75, 87)",
+          "minimumRatio": 5.288139874268874
+        },
+        {
+          "text": "One Nexus workflow.100 integrated tool paths.",
+          "color": "rgb(16, 26, 23)",
+          "minimumRatio": 10.244110661115585
+        },
+        {
+          "text": "100 integrated tool paths.",
+          "color": "rgb(16, 26, 23)",
+          "minimumRatio": 10.244110661115585
+        },
+        {
+          "text": "Find the right tool, shape a creator brief, then continue in ChatGPT, Gamma, LibreChat, AnythingLLM, or Langflow without giving Nexus your account credentials.",
+          "color": "rgb(52, 75, 87)",
+          "minimumRatio": 5.288139874268874
+        }
+      ],
+      "linkStates": [
+        {
+          "state": "default",
+          "color": "rgb(5, 7, 10)",
+          "minimumRatio": 11.630694040910441
+        },
+        {
+          "state": "hover",
+          "color": "rgb(23, 63, 52)",
+          "minimumRatio": 6.739040652340394
+        },
+        {
+          "state": "keyboard-focus",
+          "color": "rgb(23, 63, 52)",
+          "minimumRatio": 6.739040652340394
+        }
+      ],
+      "placeholder": "rgb(82, 97, 107)",
+      "focused": [
+        {
+          "selector": "#heroQuery",
+          "focused": true,
+          "outline": "solid",
+          "width": "3px",
+          "shadow": "rgb(105, 207, 255) 0px 0px 0px 6px"
+        },
+        {
+          "selector": "#handoffGoal",
+          "focused": true,
+          "outline": "solid",
+          "width": "3px",
+          "shadow": "rgb(105, 207, 255) 0px 0px 0px 6px"
+        },
+        {
+          "selector": "#handoffTarget",
+          "focused": true,
+          "outline": "solid",
+          "width": "3px",
+          "shadow": "rgb(105, 207, 255) 0px 0px 0px 6px"
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "text": [
+        {
+          "text": "Platform Bridge",
+          "color": "rgb(52, 75, 87)",
+          "minimumRatio": 5.288139874268874
+        },
+        {
+          "text": "One Nexus workflow.100 integrated tool paths.",
+          "color": "rgb(16, 26, 23)",
+          "minimumRatio": 10.244110661115585
+        },
+        {
+          "text": "100 integrated tool paths.",
+          "color": "rgb(16, 26, 23)",
+          "minimumRatio": 10.244110661115585
+        },
+        {
+          "text": "Find the right tool, shape a creator brief, then continue in ChatGPT, Gamma, LibreChat, AnythingLLM, or Langflow without giving Nexus your account credentials.",
+          "color": "rgb(52, 75, 87)",
+          "minimumRatio": 5.288139874268874
+        }
+      ],
+      "linkStates": [
+        {
+          "state": "default",
+          "color": "rgb(5, 7, 10)",
+          "minimumRatio": 11.630694040910441
+        },
+        {
+          "state": "hover",
+          "color": "rgb(23, 63, 52)",
+          "minimumRatio": 6.739040652340394
+        },
+        {
+          "state": "keyboard-focus",
+          "color": "rgb(23, 63, 52)",
+          "minimumRatio": 6.739040652340394
+        }
+      ],
+      "placeholder": "rgb(82, 97, 107)",
+      "focused": [
+        {
+          "selector": "#heroQuery",
+          "focused": true,
+          "outline": "solid",
+          "width": "3px",
+          "shadow": "rgb(105, 207, 255) 0px 0px 0px 6px"
+        },
+        {
+          "selector": "#handoffGoal",
+          "focused": true,
+          "outline": "solid",
+          "width": "3px",
+          "shadow": "rgb(105, 207, 255) 0px 0px 0px 6px"
+        },
+        {
+          "selector": "#handoffTarget",
+          "focused": true,
+          "outline": "solid",
+          "width": "3px",
+          "shadow": "rgb(105, 207, 255) 0px 0px 0px 6px"
+        }
+      ]
+    },
+    {
+      "width": 1024,
+      "text": [
+        {
+          "text": "Platform Bridge",
+          "color": "rgb(52, 75, 87)",
+          "minimumRatio": 5.288139874268874
+        },
+        {
+          "text": "One Nexus workflow.100 integrated tool paths.",
+          "color": "rgb(16, 26, 23)",
+          "minimumRatio": 10.244110661115585
+        },
+        {
+          "text": "100 integrated tool paths.",
+          "color": "rgb(16, 26, 23)",
+          "minimumRatio": 10.244110661115585
+        },
+        {
+          "text": "Find the right tool, shape a creator brief, then continue in ChatGPT, Gamma, LibreChat, AnythingLLM, or Langflow without giving Nexus your account credentials.",
+          "color": "rgb(52, 75, 87)",
+          "minimumRatio": 5.288139874268874
+        }
+      ],
+      "linkStates": [
+        {
+          "state": "default",
+          "color": "rgb(5, 7, 10)",
+          "minimumRatio": 11.630694040910441
+        },
+        {
+          "state": "hover",
+          "color": "rgb(23, 63, 52)",
+          "minimumRatio": 6.739040652340394
+        },
+        {
+          "state": "keyboard-focus",
+          "color": "rgb(23, 63, 52)",
+          "minimumRatio": 6.739040652340394
+        }
+      ],
+      "placeholder": "rgb(82, 97, 107)",
+      "focused": [
+        {
+          "selector": "#heroQuery",
+          "focused": true,
+          "outline": "solid",
+          "width": "3px",
+          "shadow": "rgb(105, 207, 255) 0px 0px 0px 6px"
+        },
+        {
+          "selector": "#handoffGoal",
+          "focused": true,
+          "outline": "solid",
+          "width": "3px",
+          "shadow": "rgb(105, 207, 255) 0px 0px 0px 6px"
+        },
+        {
+          "selector": "#handoffTarget",
+          "focused": true,
+          "outline": "solid",
+          "width": "3px",
+          "shadow": "rgb(105, 207, 255) 0px 0px 0px 6px"
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "text": [
+        {
+          "text": "Platform Bridge",
+          "color": "rgb(52, 75, 87)",
+          "minimumRatio": 5.288139874268874
+        },
+        {
+          "text": "One Nexus workflow.100 integrated tool paths.",
+          "color": "rgb(16, 26, 23)",
+          "minimumRatio": 10.244110661115585
+        },
+        {
+          "text": "100 integrated tool paths.",
+          "color": "rgb(16, 26, 23)",
+          "minimumRatio": 10.244110661115585
+        },
+        {
+          "text": "Find the right tool, shape a creator brief, then continue in ChatGPT, Gamma, LibreChat, AnythingLLM, or Langflow without giving Nexus your account credentials.",
+          "color": "rgb(52, 75, 87)",
+          "minimumRatio": 5.288139874268874
+        }
+      ],
+      "linkStates": [
+        {
+          "state": "default",
+          "color": "rgb(5, 7, 10)",
+          "minimumRatio": 11.630694040910441
+        },
+        {
+          "state": "hover",
+          "color": "rgb(23, 63, 52)",
+          "minimumRatio": 6.739040652340394
+        },
+        {
+          "state": "keyboard-focus",
+          "color": "rgb(23, 63, 52)",
+          "minimumRatio": 6.739040652340394
+        }
+      ],
+      "placeholder": "rgb(82, 97, 107)",
+      "focused": [
+        {
+          "selector": "#heroQuery",
+          "focused": true,
+          "outline": "solid",
+          "width": "3px",
+          "shadow": "rgb(105, 207, 255) 0px 0px 0px 6px"
+        },
+        {
+          "selector": "#handoffGoal",
+          "focused": true,
+          "outline": "solid",
+          "width": "3px",
+          "shadow": "rgb(105, 207, 255) 0px 0px 0px 6px"
+        },
+        {
+          "selector": "#handoffTarget",
+          "focused": true,
+          "outline": "solid",
+          "width": "3px",
+          "shadow": "rgb(105, 207, 255) 0px 0px 0px 6px"
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "Scoped platform text and field focus regression; full contrast and assistive-technology review remains separate."
+  ]
+}

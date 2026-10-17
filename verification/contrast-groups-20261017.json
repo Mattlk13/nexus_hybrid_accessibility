@@ -1,0 +1,2043 @@
+[
+  {
+    "color": "rgb(236, 249, 255)",
+    "size": "17.6px",
+    "weight": "900",
+    "opacity": "1",
+    "bgs": [
+      {
+        "color": "rgba(3, 6, 9, 0.9)",
+        "image": "none"
+      },
+      {
+        "color": "rgb(3, 6, 9)",
+        "image": "radial-gradient(circle at 76% 7%, rgba(105, 207, 255, 0.13), rgba(0, 0, 0, 0) 448px), radial-gradient(circle at 10% 48%, rgba(255, 45, 85, 0.08), rgba(0, 0, 0, 0) 512px), none"
+      }
+    ],
+    "reason": [
+      "bgGradient"
+    ],
+    "count": 1,
+    "examples": [
+      "a[aria-label=\"N Nexus home\"] > span:nth-child(2)"
+    ]
+  },
+  {
+    "color": "rgb(105, 207, 255)",
+    "size": "16px",
+    "weight": "400",
+    "opacity": "1",
+    "bgs": [
+      {
+        "color": "rgba(3, 6, 9, 0.9)",
+        "image": "none"
+      },
+      {
+        "color": "rgb(3, 6, 9)",
+        "image": "radial-gradient(circle at 76% 7%, rgba(105, 207, 255, 0.13), rgba(0, 0, 0, 0) 448px), radial-gradient(circle at 10% 48%, rgba(255, 45, 85, 0.08), rgba(0, 0, 0, 0) 512px), none"
+      }
+    ],
+    "reason": [
+      "bgGradient"
+    ],
+    "count": 1,
+    "examples": [
+      "#menu"
+    ]
+  },
+  {
+    "color": "rgb(105, 207, 255)",
+    "size": "11.52px",
+    "weight": "900",
+    "opacity": "1",
+    "bgs": [
+      {
+        "color": "rgb(3, 6, 9)",
+        "image": "radial-gradient(circle at 76% 7%, rgba(105, 207, 255, 0.13), rgba(0, 0, 0, 0) 448px), radial-gradient(circle at 10% 48%, rgba(255, 45, 85, 0.08), rgba(0, 0, 0, 0) 512px), none"
+      }
+    ],
+    "reason": [
+      "bgGradient"
+    ],
+    "count": 4,
+    "examples": [
+      ".heroCopy > .eyebrow",
+      "#market > .sectionTop > div > .eyebrow",
+      "#community > .sectionTop > div > .eyebrow"
+    ]
+  },
+  {
+    "color": "rgb(236, 249, 255)",
+    "size": "62.4px",
+    "weight": "500",
+    "opacity": "1",
+    "bgs": [
+      {
+        "color": "rgb(3, 6, 9)",
+        "image": "radial-gradient(circle at 76% 7%, rgba(105, 207, 255, 0.13), rgba(0, 0, 0, 0) 448px), radial-gradient(circle at 10% 48%, rgba(255, 45, 85, 0.08), rgba(0, 0, 0, 0) 512px), none"
+      }
+    ],
+    "reason": [
+      "bgGradient"
+    ],
+    "count": 1,
+    "examples": [
+      "h1"
+    ]
+  },
+  {
+    "color": "rgb(105, 207, 255)",
+    "size": "62.4px",
+    "weight": "500",
+    "opacity": "1",
+    "bgs": [
+      {
+        "color": "rgb(3, 6, 9)",
+        "image": "radial-gradient(circle at 76% 7%, rgba(105, 207, 255, 0.13), rgba(0, 0, 0, 0) 448px), radial-gradient(circle at 10% 48%, rgba(255, 45, 85, 0.08), rgba(0, 0, 0, 0) 512px), none"
+      }
+    ],
+    "reason": [
+      "bgGradient"
+    ],
+    "count": 1,
+    "examples": [
+      "h1 > em"
+    ]
+  },
+  {
+    "color": "rgb(158, 203, 226)",
+    "size": "18.56px",
+    "weight": "400",
+    "opacity": "1",
+    "bgs": [
+      {
+        "color": "rgb(3, 6, 9)",
+        "image": "radial-gradient(circle at 76% 7%, rgba(105, 207, 255, 0.13), rgba(0, 0, 0, 0) 448px), radial-gradient(circle at 10% 48%, rgba(255, 45, 85, 0.08), rgba(0, 0, 0, 0) 512px), none"
+      }
+    ],
+    "reason": [
+      "bgGradient"
+    ],
+    "count": 1,
+    "examples": [
+      ".heroLead"
+    ]
+  },
+  {
+    "color": "rgb(236, 249, 255)",
+    "size": "22.4px",
+    "weight": "400",
+    "opacity": "1",
+    "bgs": [
+      {
+        "color": "rgba(9, 18, 26, 0.94)",
+        "image": "none"
+      },
+      {
+        "color": "rgb(3, 6, 9)",
+        "image": "radial-gradient(circle at 76% 7%, rgba(105, 207, 255, 0.13), rgba(0, 0, 0, 0) 448px), radial-gradient(circle at 10% 48%, rgba(255, 45, 85, 0.08), rgba(0, 0, 0, 0) 512px), none"
+      }
+    ],
+    "reason": [
+      "nonBmp"
+    ],
+    "count": 1,
+    "examples": [
+      "#heroSearch > span[aria-hidden=\"true\"]"
+    ]
+  },
+  {
+    "color": "rgb(236, 249, 255)",
+    "size": "16px",
+    "weight": "400",
+    "opacity": "1",
+    "bgs": [
+      {
+        "color": "rgba(9, 18, 26, 0.94)",
+        "image": "none"
+      },
+      {
+        "color": "rgb(3, 6, 9)",
+        "image": "radial-gradient(circle at 76% 7%, rgba(105, 207, 255, 0.13), rgba(0, 0, 0, 0) 448px), radial-gradient(circle at 10% 48%, rgba(255, 45, 85, 0.08), rgba(0, 0, 0, 0) 512px), none"
+      }
+    ],
+    "reason": [
+      "emptyValue"
+    ],
+    "count": 1,
+    "examples": [
+      "#heroQuery"
+    ]
+  },
+  {
+    "color": "rgb(158, 203, 226)",
+    "size": "13.28px",
+    "weight": "400",
+    "opacity": "1",
+    "bgs": [
+      {
+        "color": "rgb(3, 6, 9)",
+        "image": "radial-gradient(circle at 76% 7%, rgba(105, 207, 255, 0.13), rgba(0, 0, 0, 0) 448px), radial-gradient(circle at 10% 48%, rgba(255, 45, 85, 0.08), rgba(0, 0, 0, 0) 512px), none"
+      }
+    ],
+    "reason": [
+      "bgGradient"
+    ],
+    "count": 1,
+    "examples": [
+      ".quickLinks > span"
+    ]
+  },
+  {
+    "color": "rgb(105, 207, 255)",
+    "size": "13.28px",
+    "weight": "400",
+    "opacity": "1",
+    "bgs": [
+      {
+        "color": "rgb(3, 6, 9)",
+        "image": "radial-gradient(circle at 76% 7%, rgba(105, 207, 255, 0.13), rgba(0, 0, 0, 0) 448px), radial-gradient(circle at 10% 48%, rgba(255, 45, 85, 0.08), rgba(0, 0, 0, 0) 512px), none"
+      }
+    ],
+    "reason": [
+      "bgGradient"
+    ],
+    "count": 3,
+    "examples": [
+      "button[data-query=\"moving\"]",
+      "button[data-query=\"lawn\"]",
+      "button[data-query=\"furniture\"]"
+    ]
+  },
+  {
+    "color": "rgb(158, 203, 226)",
+    "size": "13.3333px",
+    "weight": "400",
+    "opacity": "1",
+    "bgs": [
+      {
+        "color": "rgb(8, 19, 27)",
+        "image": "none"
+      },
+      {
+        "color": "rgba(0, 0, 0, 0)",
+        "image": "radial-gradient(circle at 50% 48%, rgba(57, 255, 20, 0.13), rgba(0, 0, 0, 0) 28%), linear-gradient(145deg, rgb(7, 19, 29), rgb(12, 40, 55) 58%, rgb(25, 7, 13))"
+      },
+      {
+        "color": "rgb(3, 6, 9)",
+        "image": "radial-gradient(circle at 76% 7%, rgba(105, 207, 255, 0.13), rgba(0, 0, 0, 0) 448px), radial-gradient(circle at 10% 48%, rgba(255, 45, 85, 0.08), rgba(0, 0, 0, 0) 512px), none"
+      }
+    ],
+    "reason": [
+      "bgOverlap"
+    ],
+    "count": 1,
+    "examples": [
+      ".pinTwo > small"
+    ]
+  },
+  {
+    "color": "rgb(2, 4, 6)",
+    "size": "16px",
+    "weight": "400",
+    "opacity": "1",
+    "bgs": [
+      {
+        "color": "rgb(57, 255, 20)",
+        "image": "none"
+      },
+      {
+        "color": "rgb(2, 4, 6)",
+        "image": "none"
+      },
+      {
+        "color": "rgba(0, 0, 0, 0)",
+        "image": "radial-gradient(circle at 50% 48%, rgba(57, 255, 20, 0.13), rgba(0, 0, 0, 0) 28%), linear-gradient(145deg, rgb(7, 19, 29), rgb(12, 40, 55) 58%, rgb(25, 7, 13))"
+      },
+      {
+        "color": "rgb(3, 6, 9)",
+        "image": "radial-gradient(circle at 76% 7%, rgba(105, 207, 255, 0.13), rgba(0, 0, 0, 0) 448px), radial-gradient(circle at 10% 48%, rgba(255, 45, 85, 0.08), rgba(0, 0, 0, 0) 512px), none"
+      }
+    ],
+    "reason": [
+      "nonBmp"
+    ],
+    "count": 1,
+    "examples": [
+      ".spark"
+    ]
+  },
+  {
+    "color": "rgb(255, 255, 255)",
+    "size": "16px",
+    "weight": "400",
+    "opacity": "1",
+    "bgs": [
+      {
+        "color": "rgb(2, 4, 6)",
+        "image": "none"
+      },
+      {
+        "color": "rgba(0, 0, 0, 0)",
+        "image": "radial-gradient(circle at 50% 48%, rgba(57, 255, 20, 0.13), rgba(0, 0, 0, 0) 28%), linear-gradient(145deg, rgb(7, 19, 29), rgb(12, 40, 55) 58%, rgb(25, 7, 13))"
+      },
+      {
+        "color": "rgb(3, 6, 9)",
+        "image": "radial-gradient(circle at 76% 7%, rgba(105, 207, 255, 0.13), rgba(0, 0, 0, 0) 448px), radial-gradient(circle at 10% 48%, rgba(255, 45, 85, 0.08), rgba(0, 0, 0, 0) 512px), none"
+      }
+    ],
+    "reason": [
+      "nonBmp"
+    ],
+    "count": 1,
+    "examples": [
+      ".aiCard > span:nth-child(3)"
+    ]
+  },
+  {
+    "color": "rgb(105, 207, 255)",
+    "size": "18.88px",
+    "weight": "700",
+    "opacity": "1",
+    "bgs": [
+      {
+        "color": "rgba(6, 14, 20, 0.62)",
+        "image": "none"
+      },
+      {
+        "color": "rgb(3, 6, 9)",
+        "image": "radial-gradient(circle at 76% 7%, rgba(105, 207, 255, 0.13), rgba(0, 0, 0, 0) 448px), radial-gradient(circle at 10% 48%, rgba(255, 45, 85, 0.08), rgba(0, 0, 0, 0) 512px), none"
+      }
+    ],
+    "reason": [
+      "bgGradient"
+    ],
+    "count": 3,
+    "examples": [
+      ".trustBar > div:nth-child(1) > b",
+      ".trustBar > div:nth-child(2) > b",
+      ".trustBar > div:nth-child(3) > b"
+    ]
+  },
+  {
+    "color": "rgb(158, 203, 226)",
+    "size": "13.12px",
+    "weight": "400",
+    "opacity": "1",
+    "bgs": [
+      {
+        "color": "rgba(6, 14, 20, 0.62)",
+        "image": "none"
+      },
+      {
+        "color": "rgb(3, 6, 9)",
+        "image": "radial-gradient(circle at 76% 7%, rgba(105, 207, 255, 0.13), rgba(0, 0, 0, 0) 448px), radial-gradient(circle at 10% 48%, rgba(255, 45, 85, 0.08), rgba(0, 0, 0, 0) 512px), none"
+      }
+    ],
+    "reason": [
+      "bgGradient"
+    ],
+    "count": 3,
+    "examples": [
+      ".trustBar > div:nth-child(1) > span",
+      ".trustBar > div:nth-child(2) > span",
+      ".trustBar > div:nth-child(3) > span"
+    ]
+  },
+  {
+    "color": "rgb(236, 249, 255)",
+    "size": "56px",
+    "weight": "500",
+    "opacity": "1",
+    "bgs": [
+      {
+        "color": "rgb(3, 6, 9)",
+        "image": "radial-gradient(circle at 76% 7%, rgba(105, 207, 255, 0.13), rgba(0, 0, 0, 0) 448px), radial-gradient(circle at 10% 48%, rgba(255, 45, 85, 0.08), rgba(0, 0, 0, 0) 512px), none"
+      }
+    ],
+    "reason": [
+      "bgGradient"
+    ],
+    "count": 3,
+    "examples": [
+      "#market > .sectionTop > div > h2",
+      "#community > .sectionTop > div > h2",
+      ".aiIntro > h2"
+    ]
+  },
+  {
+    "color": "rgb(158, 203, 226)",
+    "size": "16px",
+    "weight": "400",
+    "opacity": "1",
+    "bgs": [
+      {
+        "color": "rgb(3, 6, 9)",
+        "image": "radial-gradient(circle at 76% 7%, rgba(105, 207, 255, 0.13), rgba(0, 0, 0, 0) 448px), radial-gradient(circle at 10% 48%, rgba(255, 45, 85, 0.08), rgba(0, 0, 0, 0) 512px), none"
+      }
+    ],
+    "reason": [
+      "bgGradient"
+    ],
+    "count": 3,
+    "examples": [
+      "#market > .sectionTop > div > p:nth-child(3)",
+      "#community > .sectionTop > div > p:nth-child(3)",
+      ".aiIntro > p:nth-child(3)"
+    ]
+  },
+  {
+    "color": "rgb(236, 249, 255)",
+    "size": "16px",
+    "weight": "800",
+    "opacity": "1",
+    "bgs": [
+      {
+        "color": "rgb(3, 6, 9)",
+        "image": "radial-gradient(circle at 76% 7%, rgba(105, 207, 255, 0.13), rgba(0, 0, 0, 0) 448px), radial-gradient(circle at 10% 48%, rgba(255, 45, 85, 0.08), rgba(0, 0, 0, 0) 512px), none"
+      }
+    ],
+    "reason": [
+      "bgGradient"
+    ],
+    "count": 1,
+    "examples": [
+      "a[href$=\"capabilities\"]"
+    ]
+  },
+  {
+    "color": "rgb(185, 222, 240)",
+    "size": "16px",
+    "weight": "400",
+    "opacity": "1",
+    "bgs": [
+      {
+        "color": "rgb(3, 6, 9)",
+        "image": "radial-gradient(circle at 76% 7%, rgba(105, 207, 255, 0.13), rgba(0, 0, 0, 0) 448px), radial-gradient(circle at 10% 48%, rgba(255, 45, 85, 0.08), rgba(0, 0, 0, 0) 512px), none"
+      }
+    ],
+    "reason": [
+      "bgGradient"
+    ],
+    "count": 9,
+    "examples": [
+      "#filters > button:nth-child(2)",
+      "#filters > button:nth-child(3)",
+      "#filters > button:nth-child(4)"
+    ]
+  },
+  {
+    "color": "rgb(236, 249, 255)",
+    "size": "16px",
+    "weight": "400",
+    "opacity": "1",
+    "bgs": [
+      {
+        "color": "rgb(3, 6, 9)",
+        "image": "radial-gradient(circle at 76% 7%, rgba(105, 207, 255, 0.13), rgba(0, 0, 0, 0) 448px), radial-gradient(circle at 10% 48%, rgba(255, 45, 85, 0.08), rgba(0, 0, 0, 0) 512px), none"
+      }
+    ],
+    "reason": [
+      "nonBmp"
+    ],
+    "count": 1,
+    "examples": [
+      ".inlineSearch > span[aria-hidden=\"true\"]"
+    ]
+  },
+  {
+    "color": "rgb(236, 249, 255)",
+    "size": "16px",
+    "weight": "400",
+    "opacity": "1",
+    "bgs": [
+      {
+        "color": "rgb(3, 6, 9)",
+        "image": "radial-gradient(circle at 76% 7%, rgba(105, 207, 255, 0.13), rgba(0, 0, 0, 0) 448px), radial-gradient(circle at 10% 48%, rgba(255, 45, 85, 0.08), rgba(0, 0, 0, 0) 512px), none"
+      }
+    ],
+    "reason": [
+      "emptyValue"
+    ],
+    "count": 1,
+    "examples": [
+      "#search"
+    ]
+  },
+  {
+    "color": "rgb(158, 203, 226)",
+    "size": "12.48px",
+    "weight": "400",
+    "opacity": "1",
+    "bgs": [
+      {
+        "color": "rgba(9, 18, 26, 0.94)",
+        "image": "none"
+      },
+      {
+        "color": "rgb(3, 6, 9)",
+        "image": "radial-gradient(circle at 76% 7%, rgba(105, 207, 255, 0.13), rgba(0, 0, 0, 0) 448px), radial-gradient(circle at 10% 48%, rgba(255, 45, 85, 0.08), rgba(0, 0, 0, 0) 512px), none"
+      }
+    ],
+    "reason": [
+      "bgGradient"
+    ],
+    "count": 12,
+    "examples": [
+      ".listingCard:nth-child(1) > .listingBody > .listingMeta > span:nth-child(1)",
+      ".listingCard:nth-child(1) > .listingBody > .listingMeta > span:nth-child(2)",
+      ".listingCard:nth-child(2) > .listingBody > .listingMeta > span:nth-child(1)"
+    ]
+  },
+  {
+    "color": "rgb(236, 249, 255)",
+    "size": "22.4px",
+    "weight": "700",
+    "opacity": "1",
+    "bgs": [
+      {
+        "color": "rgba(9, 18, 26, 0.94)",
+        "image": "none"
+      },
+      {
+        "color": "rgb(3, 6, 9)",
+        "image": "radial-gradient(circle at 76% 7%, rgba(105, 207, 255, 0.13), rgba(0, 0, 0, 0) 448px), radial-gradient(circle at 10% 48%, rgba(255, 45, 85, 0.08), rgba(0, 0, 0, 0) 512px), none"
+      }
+    ],
+    "reason": [
+      "bgGradient"
+    ],
+    "count": 6,
+    "examples": [
+      ".listingCard:nth-child(1) > .listingBody > h3",
+      ".listingCard:nth-child(2) > .listingBody > h3",
+      ".listingCard:nth-child(3) > .listingBody > h3"
+    ]
+  },
+  {
+    "color": "rgb(105, 207, 255)",
+    "size": "16px",
+    "weight": "900",
+    "opacity": "1",
+    "bgs": [
+      {
+        "color": "rgba(9, 18, 26, 0.94)",
+        "image": "none"
+      },
+      {
+        "color": "rgb(3, 6, 9)",
+        "image": "radial-gradient(circle at 76% 7%, rgba(105, 207, 255, 0.13), rgba(0, 0, 0, 0) 448px), radial-gradient(circle at 10% 48%, rgba(255, 45, 85, 0.08), rgba(0, 0, 0, 0) 512px), none"
+      }
+    ],
+    "reason": [
+      "bgGradient"
+    ],
+    "count": 6,
+    "examples": [
+      ".listingCard:nth-child(1) > .listingBody > .listingPrice",
+      ".listingCard:nth-child(2) > .listingBody > .listingPrice",
+      ".listingCard:nth-child(3) > .listingBody > .listingPrice"
+    ]
+  },
+  {
+    "color": "rgb(158, 203, 226)",
+    "size": "12px",
+    "weight": "400",
+    "opacity": "1",
+    "bgs": [
+      {
+        "color": "rgb(3, 6, 9)",
+        "image": "radial-gradient(circle at 76% 7%, rgba(105, 207, 255, 0.13), rgba(0, 0, 0, 0) 448px), radial-gradient(circle at 10% 48%, rgba(255, 45, 85, 0.08), rgba(0, 0, 0, 0) 512px), none"
+      }
+    ],
+    "reason": [
+      "bgGradient"
+    ],
+    "count": 1,
+    "examples": [
+      "#market > .finePrint"
+    ]
+  },
+  {
+    "color": "rgb(105, 207, 255)",
+    "size": "11.52px",
+    "weight": "900",
+    "opacity": "1",
+    "bgs": [
+      {
+        "color": "rgba(0, 0, 0, 0)",
+        "image": "linear-gradient(120deg, rgba(255, 45, 85, 0.18), rgba(0, 0, 0, 0) 42%), linear-gradient(145deg, rgb(8, 9, 13), rgb(23, 7, 13))"
+      },
+      {
+        "color": "rgb(3, 6, 9)",
+        "image": "radial-gradient(circle at 76% 7%, rgba(105, 207, 255, 0.13), rgba(0, 0, 0, 0) 448px), radial-gradient(circle at 10% 48%, rgba(255, 45, 85, 0.08), rgba(0, 0, 0, 0) 512px), none"
+      }
+    ],
+    "reason": [
+      "bgGradient"
+    ],
+    "count": 1,
+    "examples": [
+      ".serviceIntro > .eyebrow"
+    ]
+  },
+  {
+    "color": "rgb(236, 249, 255)",
+    "size": "56px",
+    "weight": "500",
+    "opacity": "1",
+    "bgs": [
+      {
+        "color": "rgba(0, 0, 0, 0)",
+        "image": "linear-gradient(120deg, rgba(255, 45, 85, 0.18), rgba(0, 0, 0, 0) 42%), linear-gradient(145deg, rgb(8, 9, 13), rgb(23, 7, 13))"
+      },
+      {
+        "color": "rgb(3, 6, 9)",
+        "image": "radial-gradient(circle at 76% 7%, rgba(105, 207, 255, 0.13), rgba(0, 0, 0, 0) 448px), radial-gradient(circle at 10% 48%, rgba(255, 45, 85, 0.08), rgba(0, 0, 0, 0) 512px), none"
+      }
+    ],
+    "reason": [
+      "bgGradient"
+    ],
+    "count": 1,
+    "examples": [
+      ".serviceIntro > h2"
+    ]
+  },
+  {
+    "color": "rgb(105, 207, 255)",
+    "size": "56px",
+    "weight": "500",
+    "opacity": "1",
+    "bgs": [
+      {
+        "color": "rgba(0, 0, 0, 0)",
+        "image": "linear-gradient(120deg, rgba(255, 45, 85, 0.18), rgba(0, 0, 0, 0) 42%), linear-gradient(145deg, rgb(8, 9, 13), rgb(23, 7, 13))"
+      },
+      {
+        "color": "rgb(3, 6, 9)",
+        "image": "radial-gradient(circle at 76% 7%, rgba(105, 207, 255, 0.13), rgba(0, 0, 0, 0) 448px), radial-gradient(circle at 10% 48%, rgba(255, 45, 85, 0.08), rgba(0, 0, 0, 0) 512px), none"
+      }
+    ],
+    "reason": [
+      "bgGradient"
+    ],
+    "count": 1,
+    "examples": [
+      ".serviceIntro > h2 > em"
+    ]
+  },
+  {
+    "color": "rgb(185, 223, 240)",
+    "size": "16px",
+    "weight": "400",
+    "opacity": "1",
+    "bgs": [
+      {
+        "color": "rgba(0, 0, 0, 0)",
+        "image": "linear-gradient(120deg, rgba(255, 45, 85, 0.18), rgba(0, 0, 0, 0) 42%), linear-gradient(145deg, rgb(8, 9, 13), rgb(23, 7, 13))"
+      },
+      {
+        "color": "rgb(3, 6, 9)",
+        "image": "radial-gradient(circle at 76% 7%, rgba(105, 207, 255, 0.13), rgba(0, 0, 0, 0) 448px), radial-gradient(circle at 10% 48%, rgba(255, 45, 85, 0.08), rgba(0, 0, 0, 0) 512px), none"
+      }
+    ],
+    "reason": [
+      "bgGradient"
+    ],
+    "count": 4,
+    "examples": [
+      ".serviceIntro > p:nth-child(3)",
+      "article:nth-child(1) > div > p",
+      "article:nth-child(2) > div > p"
+    ]
+  },
+  {
+    "color": "rgb(57, 255, 20)",
+    "size": "17.6px",
+    "weight": "400",
+    "opacity": "1",
+    "bgs": [
+      {
+        "color": "rgba(0, 0, 0, 0)",
+        "image": "linear-gradient(120deg, rgba(255, 45, 85, 0.18), rgba(0, 0, 0, 0) 42%), linear-gradient(145deg, rgb(8, 9, 13), rgb(23, 7, 13))"
+      },
+      {
+        "color": "rgb(3, 6, 9)",
+        "image": "radial-gradient(circle at 76% 7%, rgba(105, 207, 255, 0.13), rgba(0, 0, 0, 0) 448px), radial-gradient(circle at 10% 48%, rgba(255, 45, 85, 0.08), rgba(0, 0, 0, 0) 512px), none"
+      }
+    ],
+    "reason": [
+      "bgGradient"
+    ],
+    "count": 3,
+    "examples": [
+      ".serviceSteps > article:nth-child(1) > span",
+      ".serviceSteps > article:nth-child(2) > span",
+      ".serviceSteps > article:nth-child(3) > span"
+    ]
+  },
+  {
+    "color": "rgb(236, 249, 255)",
+    "size": "24px",
+    "weight": "400",
+    "opacity": "1",
+    "bgs": [
+      {
+        "color": "rgba(0, 0, 0, 0)",
+        "image": "linear-gradient(120deg, rgba(255, 45, 85, 0.18), rgba(0, 0, 0, 0) 42%), linear-gradient(145deg, rgb(8, 9, 13), rgb(23, 7, 13))"
+      },
+      {
+        "color": "rgb(3, 6, 9)",
+        "image": "radial-gradient(circle at 76% 7%, rgba(105, 207, 255, 0.13), rgba(0, 0, 0, 0) 448px), radial-gradient(circle at 10% 48%, rgba(255, 45, 85, 0.08), rgba(0, 0, 0, 0) 512px), none"
+      }
+    ],
+    "reason": [
+      "bgGradient"
+    ],
+    "count": 3,
+    "examples": [
+      ".serviceSteps > article:nth-child(1) > div > h3",
+      ".serviceSteps > article:nth-child(2) > div > h3",
+      ".serviceSteps > article:nth-child(3) > div > h3"
+    ]
+  },
+  {
+    "color": "rgb(255, 255, 255)",
+    "size": "24px",
+    "weight": "400",
+    "opacity": "1",
+    "bgs": [
+      {
+        "color": "rgba(0, 0, 0, 0)",
+        "image": "linear-gradient(145deg, rgb(7, 26, 39), rgb(9, 13, 19))"
+      },
+      {
+        "color": "rgb(3, 6, 9)",
+        "image": "radial-gradient(circle at 76% 7%, rgba(105, 207, 255, 0.13), rgba(0, 0, 0, 0) 448px), radial-gradient(circle at 10% 48%, rgba(255, 45, 85, 0.08), rgba(0, 0, 0, 0) 512px), none"
+      }
+    ],
+    "reason": [
+      "bgGradient"
+    ],
+    "count": 1,
+    "examples": [
+      "label[for=\"postText\"]"
+    ]
+  },
+  {
+    "color": "rgb(158, 203, 226)",
+    "size": "13.3333px",
+    "weight": "400",
+    "opacity": "1",
+    "bgs": [
+      {
+        "color": "rgba(0, 0, 0, 0)",
+        "image": "linear-gradient(145deg, rgb(7, 26, 39), rgb(9, 13, 19))"
+      },
+      {
+        "color": "rgb(3, 6, 9)",
+        "image": "radial-gradient(circle at 76% 7%, rgba(105, 207, 255, 0.13), rgba(0, 0, 0, 0) 448px), radial-gradient(circle at 10% 48%, rgba(255, 45, 85, 0.08), rgba(0, 0, 0, 0) 512px), none"
+      }
+    ],
+    "reason": [
+      "bgGradient"
+    ],
+    "count": 1,
+    "examples": [
+      "#charCount"
+    ]
+  },
+  {
+    "color": "rgb(158, 203, 226)",
+    "size": "12.48px",
+    "weight": "400",
+    "opacity": "1",
+    "bgs": [
+      {
+        "color": "rgba(0, 0, 0, 0)",
+        "image": "linear-gradient(145deg, rgb(7, 26, 39), rgb(9, 13, 19))"
+      },
+      {
+        "color": "rgb(3, 6, 9)",
+        "image": "radial-gradient(circle at 76% 7%, rgba(105, 207, 255, 0.13), rgba(0, 0, 0, 0) 448px), radial-gradient(circle at 10% 48%, rgba(255, 45, 85, 0.08), rgba(0, 0, 0, 0) 512px), none"
+      }
+    ],
+    "reason": [
+      "bgGradient"
+    ],
+    "count": 1,
+    "examples": [
+      "#postStatus"
+    ]
+  },
+  {
+    "color": "rgb(105, 207, 255)",
+    "size": "13.3333px",
+    "weight": "800",
+    "opacity": "1",
+    "bgs": [
+      {
+        "color": "rgba(9, 18, 26, 0.94)",
+        "image": "none"
+      },
+      {
+        "color": "rgb(3, 6, 9)",
+        "image": "radial-gradient(circle at 76% 7%, rgba(105, 207, 255, 0.13), rgba(0, 0, 0, 0) 448px), radial-gradient(circle at 10% 48%, rgba(255, 45, 85, 0.08), rgba(0, 0, 0, 0) 512px), none"
+      }
+    ],
+    "reason": [
+      "bgGradient"
+    ],
+    "count": 1,
+    "examples": [
+      ".post > small"
+    ]
+  },
+  {
+    "color": "rgb(236, 249, 255)",
+    "size": "16px",
+    "weight": "400",
+    "opacity": "1",
+    "bgs": [
+      {
+        "color": "rgba(9, 18, 26, 0.94)",
+        "image": "none"
+      },
+      {
+        "color": "rgb(3, 6, 9)",
+        "image": "radial-gradient(circle at 76% 7%, rgba(105, 207, 255, 0.13), rgba(0, 0, 0, 0) 448px), radial-gradient(circle at 10% 48%, rgba(255, 45, 85, 0.08), rgba(0, 0, 0, 0) 512px), none"
+      }
+    ],
+    "reason": [
+      "bgGradient"
+    ],
+    "count": 1,
+    "examples": [
+      ".post > p"
+    ]
+  },
+  {
+    "color": "rgb(57, 255, 20)",
+    "size": "11.52px",
+    "weight": "900",
+    "opacity": "1",
+    "bgs": [
+      {
+        "color": "rgba(0, 0, 0, 0)",
+        "image": "radial-gradient(circle at 88% 12%, rgba(255, 45, 85, 0.11), rgba(0, 0, 0, 0) 416px), linear-gradient(rgb(1, 3, 4), rgb(6, 16, 25))"
+      },
+      {
+        "color": "rgb(3, 6, 9)",
+        "image": "radial-gradient(circle at 76% 7%, rgba(105, 207, 255, 0.13), rgba(0, 0, 0, 0) 448px), radial-gradient(circle at 10% 48%, rgba(255, 45, 85, 0.08), rgba(0, 0, 0, 0) 512px), none"
+      }
+    ],
+    "reason": [
+      "bgGradient"
+    ],
+    "count": 1,
+    "examples": [
+      ".light > div > .eyebrow"
+    ]
+  },
+  {
+    "color": "rgb(236, 249, 255)",
+    "size": "56px",
+    "weight": "500",
+    "opacity": "1",
+    "bgs": [
+      {
+        "color": "rgba(0, 0, 0, 0)",
+        "image": "radial-gradient(circle at 88% 12%, rgba(255, 45, 85, 0.11), rgba(0, 0, 0, 0) 416px), linear-gradient(rgb(1, 3, 4), rgb(6, 16, 25))"
+      },
+      {
+        "color": "rgb(3, 6, 9)",
+        "image": "radial-gradient(circle at 76% 7%, rgba(105, 207, 255, 0.13), rgba(0, 0, 0, 0) 448px), radial-gradient(circle at 10% 48%, rgba(255, 45, 85, 0.08), rgba(0, 0, 0, 0) 512px), none"
+      }
+    ],
+    "reason": [
+      "bgGradient"
+    ],
+    "count": 1,
+    "examples": [
+      ".light > div > h2"
+    ]
+  },
+  {
+    "color": "rgb(159, 197, 215)",
+    "size": "16px",
+    "weight": "400",
+    "opacity": "1",
+    "bgs": [
+      {
+        "color": "rgba(0, 0, 0, 0)",
+        "image": "radial-gradient(circle at 88% 12%, rgba(255, 45, 85, 0.11), rgba(0, 0, 0, 0) 416px), linear-gradient(rgb(1, 3, 4), rgb(6, 16, 25))"
+      },
+      {
+        "color": "rgb(3, 6, 9)",
+        "image": "radial-gradient(circle at 76% 7%, rgba(105, 207, 255, 0.13), rgba(0, 0, 0, 0) 448px), radial-gradient(circle at 10% 48%, rgba(255, 45, 85, 0.08), rgba(0, 0, 0, 0) 512px), none"
+      }
+    ],
+    "reason": [
+      "bgGradient"
+    ],
+    "count": 1,
+    "examples": [
+      ".light > div > p:nth-child(3)"
+    ]
+  },
+  {
+    "color": "rgb(57, 255, 20)",
+    "size": "33.6px",
+    "weight": "400",
+    "opacity": "1",
+    "bgs": [
+      {
+        "color": "rgba(0, 0, 0, 0)",
+        "image": "radial-gradient(circle at 88% 12%, rgba(255, 45, 85, 0.11), rgba(0, 0, 0, 0) 416px), linear-gradient(rgb(1, 3, 4), rgb(6, 16, 25))"
+      },
+      {
+        "color": "rgb(3, 6, 9)",
+        "image": "radial-gradient(circle at 76% 7%, rgba(105, 207, 255, 0.13), rgba(0, 0, 0, 0) 448px), radial-gradient(circle at 10% 48%, rgba(255, 45, 85, 0.08), rgba(0, 0, 0, 0) 512px), none"
+      }
+    ],
+    "reason": [
+      "bgGradient"
+    ],
+    "count": 6,
+    "examples": [
+      "#toolTotal",
+      "#categoryTotal",
+      "#openSourceTotal"
+    ]
+  },
+  {
+    "color": "rgb(153, 170, 164)",
+    "size": "12.8px",
+    "weight": "400",
+    "opacity": "1",
+    "bgs": [
+      {
+        "color": "rgba(0, 0, 0, 0)",
+        "image": "radial-gradient(circle at 88% 12%, rgba(255, 45, 85, 0.11), rgba(0, 0, 0, 0) 416px), linear-gradient(rgb(1, 3, 4), rgb(6, 16, 25))"
+      },
+      {
+        "color": "rgb(3, 6, 9)",
+        "image": "radial-gradient(circle at 76% 7%, rgba(105, 207, 255, 0.13), rgba(0, 0, 0, 0) 448px), radial-gradient(circle at 10% 48%, rgba(255, 45, 85, 0.08), rgba(0, 0, 0, 0) 512px), none"
+      }
+    ],
+    "reason": [
+      "bgGradient"
+    ],
+    "count": 6,
+    "examples": [
+      ".toolStats > div:nth-child(1) > span",
+      ".toolStats > div:nth-child(2) > span",
+      ".toolStats > div:nth-child(3) > span"
+    ]
+  },
+  {
+    "color": "rgb(255, 255, 255)",
+    "size": "16px",
+    "weight": "800",
+    "opacity": "1",
+    "bgs": [
+      {
+        "color": "rgba(0, 0, 0, 0)",
+        "image": "radial-gradient(circle at 88% 12%, rgba(255, 45, 85, 0.11), rgba(0, 0, 0, 0) 416px), linear-gradient(rgb(1, 3, 4), rgb(6, 16, 25))"
+      },
+      {
+        "color": "rgb(3, 6, 9)",
+        "image": "radial-gradient(circle at 76% 7%, rgba(105, 207, 255, 0.13), rgba(0, 0, 0, 0) 448px), radial-gradient(circle at 10% 48%, rgba(255, 45, 85, 0.08), rgba(0, 0, 0, 0) 512px), none"
+      }
+    ],
+    "reason": [
+      "bgGradient"
+    ],
+    "count": 1,
+    "examples": [
+      "label[for=\"toolSearch\"]"
+    ]
+  },
+  {
+    "color": "rgb(185, 222, 240)",
+    "size": "16px",
+    "weight": "400",
+    "opacity": "1",
+    "bgs": [
+      {
+        "color": "rgba(0, 0, 0, 0)",
+        "image": "radial-gradient(circle at 88% 12%, rgba(255, 45, 85, 0.11), rgba(0, 0, 0, 0) 416px), linear-gradient(rgb(1, 3, 4), rgb(6, 16, 25))"
+      },
+      {
+        "color": "rgb(3, 6, 9)",
+        "image": "radial-gradient(circle at 76% 7%, rgba(105, 207, 255, 0.13), rgba(0, 0, 0, 0) 448px), radial-gradient(circle at 10% 48%, rgba(255, 45, 85, 0.08), rgba(0, 0, 0, 0) 512px), none"
+      }
+    ],
+    "reason": [
+      "bgGradient"
+    ],
+    "count": 42,
+    "examples": [
+      "button[data-view=\"open\"]",
+      "button[data-view=\"creator\"]",
+      "button[data-view=\"browser\"]"
+    ]
+  },
+  {
+    "color": "rgb(159, 197, 215)",
+    "size": "12.48px",
+    "weight": "400",
+    "opacity": "1",
+    "bgs": [
+      {
+        "color": "rgba(0, 0, 0, 0)",
+        "image": "radial-gradient(circle at 88% 12%, rgba(255, 45, 85, 0.11), rgba(0, 0, 0, 0) 416px), linear-gradient(rgb(1, 3, 4), rgb(6, 16, 25))"
+      },
+      {
+        "color": "rgb(3, 6, 9)",
+        "image": "radial-gradient(circle at 76% 7%, rgba(105, 207, 255, 0.13), rgba(0, 0, 0, 0) 448px), radial-gradient(circle at 10% 48%, rgba(255, 45, 85, 0.08), rgba(0, 0, 0, 0) 512px), none"
+      }
+    ],
+    "reason": [
+      "bgGradient"
+    ],
+    "count": 1,
+    "examples": [
+      ".integrationNote"
+    ]
+  },
+  {
+    "color": "rgb(159, 197, 215)",
+    "size": "12px",
+    "weight": "400",
+    "opacity": "1",
+    "bgs": [
+      {
+        "color": "rgba(0, 0, 0, 0)",
+        "image": "linear-gradient(155deg, rgb(8, 24, 34), rgb(5, 10, 14))"
+      },
+      {
+        "color": "rgba(0, 0, 0, 0)",
+        "image": "radial-gradient(circle at 88% 12%, rgba(255, 45, 85, 0.11), rgba(0, 0, 0, 0) 416px), linear-gradient(rgb(1, 3, 4), rgb(6, 16, 25))"
+      },
+      {
+        "color": "rgb(3, 6, 9)",
+        "image": "radial-gradient(circle at 76% 7%, rgba(105, 207, 255, 0.13), rgba(0, 0, 0, 0) 448px), radial-gradient(circle at 10% 48%, rgba(255, 45, 85, 0.08), rgba(0, 0, 0, 0) 512px), none"
+      }
+    ],
+    "reason": [
+      "bgGradient"
+    ],
+    "count": 101,
+    "examples": [
+      ".toolCard:nth-child(1) > .toolMeta > span:nth-child(1)",
+      ".toolCard:nth-child(2) > .toolMeta > span:nth-child(1)",
+      ".toolCard:nth-child(3) > .toolMeta > span:nth-child(1)"
+    ]
+  },
+  {
+    "color": "rgb(255, 255, 255)",
+    "size": "24px",
+    "weight": "400",
+    "opacity": "1",
+    "bgs": [
+      {
+        "color": "rgba(0, 0, 0, 0)",
+        "image": "linear-gradient(155deg, rgb(8, 24, 34), rgb(5, 10, 14))"
+      },
+      {
+        "color": "rgba(0, 0, 0, 0)",
+        "image": "radial-gradient(circle at 88% 12%, rgba(255, 45, 85, 0.11), rgba(0, 0, 0, 0) 416px), linear-gradient(rgb(1, 3, 4), rgb(6, 16, 25))"
+      },
+      {
+        "color": "rgb(3, 6, 9)",
+        "image": "radial-gradient(circle at 76% 7%, rgba(105, 207, 255, 0.13), rgba(0, 0, 0, 0) 448px), radial-gradient(circle at 10% 48%, rgba(255, 45, 85, 0.08), rgba(0, 0, 0, 0) 512px), none"
+      }
+    ],
+    "reason": [
+      "bgGradient"
+    ],
+    "count": 101,
+    "examples": [
+      ".toolCard:nth-child(1) > h3",
+      ".toolCard:nth-child(2) > h3",
+      ".toolCard:nth-child(3) > h3"
+    ]
+  },
+  {
+    "color": "rgb(159, 197, 215)",
+    "size": "16px",
+    "weight": "400",
+    "opacity": "1",
+    "bgs": [
+      {
+        "color": "rgba(0, 0, 0, 0)",
+        "image": "linear-gradient(155deg, rgb(8, 24, 34), rgb(5, 10, 14))"
+      },
+      {
+        "color": "rgba(0, 0, 0, 0)",
+        "image": "radial-gradient(circle at 88% 12%, rgba(255, 45, 85, 0.11), rgba(0, 0, 0, 0) 416px), linear-gradient(rgb(1, 3, 4), rgb(6, 16, 25))"
+      },
+      {
+        "color": "rgb(3, 6, 9)",
+        "image": "radial-gradient(circle at 76% 7%, rgba(105, 207, 255, 0.13), rgba(0, 0, 0, 0) 448px), radial-gradient(circle at 10% 48%, rgba(255, 45, 85, 0.08), rgba(0, 0, 0, 0) 512px), none"
+      }
+    ],
+    "reason": [
+      "bgGradient"
+    ],
+    "count": 101,
+    "examples": [
+      ".toolCard:nth-child(1) > p",
+      ".toolCard:nth-child(2) > p",
+      ".toolCard:nth-child(3) > p"
+    ]
+  },
+  {
+    "color": "rgb(196, 228, 242)",
+    "size": "13.3333px",
+    "weight": "400",
+    "opacity": "1",
+    "bgs": [
+      {
+        "color": "rgba(0, 0, 0, 0)",
+        "image": "linear-gradient(155deg, rgb(8, 24, 34), rgb(5, 10, 14))"
+      },
+      {
+        "color": "rgba(0, 0, 0, 0)",
+        "image": "radial-gradient(circle at 88% 12%, rgba(255, 45, 85, 0.11), rgba(0, 0, 0, 0) 416px), linear-gradient(rgb(1, 3, 4), rgb(6, 16, 25))"
+      },
+      {
+        "color": "rgb(3, 6, 9)",
+        "image": "radial-gradient(circle at 76% 7%, rgba(105, 207, 255, 0.13), rgba(0, 0, 0, 0) 448px), radial-gradient(circle at 10% 48%, rgba(255, 45, 85, 0.08), rgba(0, 0, 0, 0) 512px), none"
+      }
+    ],
+    "reason": [
+      "bgGradient"
+    ],
+    "count": 101,
+    "examples": [
+      ".toolCard:nth-child(1) > .integrationMode",
+      ".toolCard:nth-child(2) > .integrationMode",
+      ".toolCard:nth-child(3) > .integrationMode"
+    ]
+  },
+  {
+    "color": "rgb(57, 255, 20)",
+    "size": "16px",
+    "weight": "800",
+    "opacity": "1",
+    "bgs": [
+      {
+        "color": "rgba(0, 0, 0, 0)",
+        "image": "linear-gradient(155deg, rgb(8, 24, 34), rgb(5, 10, 14))"
+      },
+      {
+        "color": "rgba(0, 0, 0, 0)",
+        "image": "radial-gradient(circle at 88% 12%, rgba(255, 45, 85, 0.11), rgba(0, 0, 0, 0) 416px), linear-gradient(rgb(1, 3, 4), rgb(6, 16, 25))"
+      },
+      {
+        "color": "rgb(3, 6, 9)",
+        "image": "radial-gradient(circle at 76% 7%, rgba(105, 207, 255, 0.13), rgba(0, 0, 0, 0) 448px), radial-gradient(circle at 10% 48%, rgba(255, 45, 85, 0.08), rgba(0, 0, 0, 0) 512px), none"
+      }
+    ],
+    "reason": [
+      "bgGradient"
+    ],
+    "count": 129,
+    "examples": [
+      "a[href$=\"chatgpt.com/\"]",
+      "a[href$=\"claude.ai/\"]",
+      "a[href$=\"gemini.google.com/\"]"
+    ]
+  },
+  {
+    "color": "rgb(57, 255, 20)",
+    "size": "12px",
+    "weight": "700",
+    "opacity": "1",
+    "bgs": [
+      {
+        "color": "rgba(57, 255, 20, 0.12)",
+        "image": "none"
+      },
+      {
+        "color": "rgba(0, 0, 0, 0)",
+        "image": "linear-gradient(155deg, rgb(8, 24, 34), rgb(5, 10, 14))"
+      },
+      {
+        "color": "rgba(0, 0, 0, 0)",
+        "image": "radial-gradient(circle at 88% 12%, rgba(255, 45, 85, 0.11), rgba(0, 0, 0, 0) 416px), linear-gradient(rgb(1, 3, 4), rgb(6, 16, 25))"
+      },
+      {
+        "color": "rgb(3, 6, 9)",
+        "image": "radial-gradient(circle at 76% 7%, rgba(105, 207, 255, 0.13), rgba(0, 0, 0, 0) 448px), radial-gradient(circle at 10% 48%, rgba(255, 45, 85, 0.08), rgba(0, 0, 0, 0) 512px), none"
+      }
+    ],
+    "reason": [
+      "bgGradient"
+    ],
+    "count": 28,
+    "examples": [
+      ".toolCard:nth-child(16) > .toolMeta > .toolBadges > .openBadge",
+      ".toolCard:nth-child(17) > .toolMeta > .toolBadges > .openBadge",
+      ".toolCard:nth-child(18) > .toolMeta > .toolBadges > .openBadge"
+    ]
+  },
+  {
+    "color": "rgb(159, 197, 215)",
+    "size": "12px",
+    "weight": "400",
+    "opacity": "1",
+    "bgs": [
+      {
+        "color": "rgba(0, 0, 0, 0)",
+        "image": "radial-gradient(circle at 88% 12%, rgba(255, 45, 85, 0.11), rgba(0, 0, 0, 0) 416px), linear-gradient(rgb(1, 3, 4), rgb(6, 16, 25))"
+      },
+      {
+        "color": "rgb(3, 6, 9)",
+        "image": "radial-gradient(circle at 76% 7%, rgba(105, 207, 255, 0.13), rgba(0, 0, 0, 0) 448px), radial-gradient(circle at 10% 48%, rgba(255, 45, 85, 0.08), rgba(0, 0, 0, 0) 512px), none"
+      }
+    ],
+    "reason": [
+      "bgGradient"
+    ],
+    "count": 1,
+    "examples": [
+      "#toolDisclaimer"
+    ]
+  },
+  {
+    "color": "rgb(105, 207, 255)",
+    "size": "11.52px",
+    "weight": "900",
+    "opacity": "1",
+    "bgs": [
+      {
+        "color": "rgba(0, 0, 0, 0)",
+        "image": "linear-gradient(145deg, rgb(234, 248, 255) 0%, rgb(248, 251, 255) 52%, rgb(239, 255, 220) 100%)"
+      },
+      {
+        "color": "rgb(3, 6, 9)",
+        "image": "radial-gradient(circle at 76% 7%, rgba(105, 207, 255, 0.13), rgba(0, 0, 0, 0) 448px), radial-gradient(circle at 10% 48%, rgba(255, 45, 85, 0.08), rgba(0, 0, 0, 0) 512px), none"
+      }
+    ],
+    "reason": [
+      "pseudoContent"
+    ],
+    "count": 1,
+    "examples": [
+      "#platform > .sectionTop > div > .eyebrow"
+    ]
+  },
+  {
+    "color": "rgb(236, 249, 255)",
+    "size": "56px",
+    "weight": "500",
+    "opacity": "1",
+    "bgs": [
+      {
+        "color": "rgba(0, 0, 0, 0)",
+        "image": "linear-gradient(145deg, rgb(234, 248, 255) 0%, rgb(248, 251, 255) 52%, rgb(239, 255, 220) 100%)"
+      },
+      {
+        "color": "rgb(3, 6, 9)",
+        "image": "radial-gradient(circle at 76% 7%, rgba(105, 207, 255, 0.13), rgba(0, 0, 0, 0) 448px), radial-gradient(circle at 10% 48%, rgba(255, 45, 85, 0.08), rgba(0, 0, 0, 0) 512px), none"
+      }
+    ],
+    "reason": [
+      "pseudoContent"
+    ],
+    "count": 2,
+    "examples": [
+      "#platform > .sectionTop > div > h2",
+      ".sectionTop > div > h2 > em"
+    ]
+  },
+  {
+    "color": "rgb(158, 203, 226)",
+    "size": "16px",
+    "weight": "400",
+    "opacity": "1",
+    "bgs": [
+      {
+        "color": "rgba(0, 0, 0, 0)",
+        "image": "linear-gradient(145deg, rgb(234, 248, 255) 0%, rgb(248, 251, 255) 52%, rgb(239, 255, 220) 100%)"
+      },
+      {
+        "color": "rgb(3, 6, 9)",
+        "image": "radial-gradient(circle at 76% 7%, rgba(105, 207, 255, 0.13), rgba(0, 0, 0, 0) 448px), radial-gradient(circle at 10% 48%, rgba(255, 45, 85, 0.08), rgba(0, 0, 0, 0) 512px), none"
+      }
+    ],
+    "reason": [
+      "pseudoContent"
+    ],
+    "count": 1,
+    "examples": [
+      "#platform > .sectionTop > div > p:nth-child(3)"
+    ]
+  },
+  {
+    "color": "rgb(5, 7, 10)",
+    "size": "16px",
+    "weight": "800",
+    "opacity": "1",
+    "bgs": [
+      {
+        "color": "rgba(0, 0, 0, 0)",
+        "image": "linear-gradient(145deg, rgb(234, 248, 255) 0%, rgb(248, 251, 255) 52%, rgb(239, 255, 220) 100%)"
+      },
+      {
+        "color": "rgb(3, 6, 9)",
+        "image": "radial-gradient(circle at 76% 7%, rgba(105, 207, 255, 0.13), rgba(0, 0, 0, 0) 448px), radial-gradient(circle at 10% 48%, rgba(255, 45, 85, 0.08), rgba(0, 0, 0, 0) 512px), none"
+      }
+    ],
+    "reason": [
+      "pseudoContent"
+    ],
+    "count": 1,
+    "examples": [
+      "a[href$=\"integrations\"]"
+    ]
+  },
+  {
+    "color": "rgb(3, 6, 9)",
+    "size": "16px",
+    "weight": "950",
+    "opacity": "1",
+    "bgs": [
+      {
+        "color": "rgb(105, 207, 255)",
+        "image": "none"
+      },
+      {
+        "color": "rgb(5, 7, 10)",
+        "image": "none"
+      },
+      {
+        "color": "rgba(0, 0, 0, 0)",
+        "image": "linear-gradient(145deg, rgb(234, 248, 255) 0%, rgb(248, 251, 255) 52%, rgb(239, 255, 220) 100%)"
+      },
+      {
+        "color": "rgb(3, 6, 9)",
+        "image": "radial-gradient(circle at 76% 7%, rgba(105, 207, 255, 0.13), rgba(0, 0, 0, 0) 448px), radial-gradient(circle at 10% 48%, rgba(255, 45, 85, 0.08), rgba(0, 0, 0, 0) 512px), none"
+      }
+    ],
+    "reason": [
+      "pseudoContent"
+    ],
+    "count": 2,
+    "examples": [
+      ".platformCard:nth-child(1) > .blue.platformSignal",
+      ".platformCard:nth-child(4) > .blue.platformSignal"
+    ]
+  },
+  {
+    "color": "rgb(245, 251, 255)",
+    "size": "24.8px",
+    "weight": "700",
+    "opacity": "1",
+    "bgs": [
+      {
+        "color": "rgb(5, 7, 10)",
+        "image": "none"
+      },
+      {
+        "color": "rgba(0, 0, 0, 0)",
+        "image": "linear-gradient(145deg, rgb(234, 248, 255) 0%, rgb(248, 251, 255) 52%, rgb(239, 255, 220) 100%)"
+      },
+      {
+        "color": "rgb(3, 6, 9)",
+        "image": "radial-gradient(circle at 76% 7%, rgba(105, 207, 255, 0.13), rgba(0, 0, 0, 0) 448px), radial-gradient(circle at 10% 48%, rgba(255, 45, 85, 0.08), rgba(0, 0, 0, 0) 512px), none"
+      }
+    ],
+    "reason": [
+      "pseudoContent"
+    ],
+    "count": 5,
+    "examples": [
+      ".platformCard:nth-child(1) > h3",
+      ".featuredPlatform > h3",
+      ".platformCard:nth-child(3) > h3"
+    ]
+  },
+  {
+    "color": "rgb(185, 199, 209)",
+    "size": "16px",
+    "weight": "400",
+    "opacity": "1",
+    "bgs": [
+      {
+        "color": "rgb(5, 7, 10)",
+        "image": "none"
+      },
+      {
+        "color": "rgba(0, 0, 0, 0)",
+        "image": "linear-gradient(145deg, rgb(234, 248, 255) 0%, rgb(248, 251, 255) 52%, rgb(239, 255, 220) 100%)"
+      },
+      {
+        "color": "rgb(3, 6, 9)",
+        "image": "radial-gradient(circle at 76% 7%, rgba(105, 207, 255, 0.13), rgba(0, 0, 0, 0) 448px), radial-gradient(circle at 10% 48%, rgba(255, 45, 85, 0.08), rgba(0, 0, 0, 0) 512px), none"
+      }
+    ],
+    "reason": [
+      "pseudoContent"
+    ],
+    "count": 5,
+    "examples": [
+      ".platformCard:nth-child(1) > p",
+      ".featuredPlatform > p",
+      ".platformCard:nth-child(3) > p"
+    ]
+  },
+  {
+    "color": "rgb(105, 207, 255)",
+    "size": "16px",
+    "weight": "800",
+    "opacity": "1",
+    "bgs": [
+      {
+        "color": "rgb(5, 7, 10)",
+        "image": "none"
+      },
+      {
+        "color": "rgba(0, 0, 0, 0)",
+        "image": "linear-gradient(145deg, rgb(234, 248, 255) 0%, rgb(248, 251, 255) 52%, rgb(239, 255, 220) 100%)"
+      },
+      {
+        "color": "rgb(3, 6, 9)",
+        "image": "radial-gradient(circle at 76% 7%, rgba(105, 207, 255, 0.13), rgba(0, 0, 0, 0) 448px), radial-gradient(circle at 10% 48%, rgba(255, 45, 85, 0.08), rgba(0, 0, 0, 0) 512px), none"
+      }
+    ],
+    "reason": [
+      "pseudoContent"
+    ],
+    "count": 5,
+    "examples": [
+      "a[href$=\"chatgpt.com\"]",
+      "a[href$=\"gamma.app\"]",
+      "a[href$=\"www.librechat.ai\"]"
+    ]
+  },
+  {
+    "color": "rgb(255, 255, 255)",
+    "size": "16px",
+    "weight": "950",
+    "opacity": "1",
+    "bgs": [
+      {
+        "color": "rgb(226, 27, 67)",
+        "image": "none"
+      },
+      {
+        "color": "rgb(5, 7, 10)",
+        "image": "none"
+      },
+      {
+        "color": "rgba(0, 0, 0, 0)",
+        "image": "linear-gradient(145deg, rgb(234, 248, 255) 0%, rgb(248, 251, 255) 52%, rgb(239, 255, 220) 100%)"
+      },
+      {
+        "color": "rgb(3, 6, 9)",
+        "image": "radial-gradient(circle at 76% 7%, rgba(105, 207, 255, 0.13), rgba(0, 0, 0, 0) 448px), radial-gradient(circle at 10% 48%, rgba(255, 45, 85, 0.08), rgba(0, 0, 0, 0) 512px), none"
+      }
+    ],
+    "reason": [
+      "pseudoContent"
+    ],
+    "count": 1,
+    "examples": [
+      ".red"
+    ]
+  },
+  {
+    "color": "rgb(3, 6, 9)",
+    "size": "16px",
+    "weight": "950",
+    "opacity": "1",
+    "bgs": [
+      {
+        "color": "rgb(57, 255, 20)",
+        "image": "none"
+      },
+      {
+        "color": "rgb(5, 7, 10)",
+        "image": "none"
+      },
+      {
+        "color": "rgba(0, 0, 0, 0)",
+        "image": "linear-gradient(145deg, rgb(234, 248, 255) 0%, rgb(248, 251, 255) 52%, rgb(239, 255, 220) 100%)"
+      },
+      {
+        "color": "rgb(3, 6, 9)",
+        "image": "radial-gradient(circle at 76% 7%, rgba(105, 207, 255, 0.13), rgba(0, 0, 0, 0) 448px), radial-gradient(circle at 10% 48%, rgba(255, 45, 85, 0.08), rgba(0, 0, 0, 0) 512px), none"
+      }
+    ],
+    "reason": [
+      "pseudoContent"
+    ],
+    "count": 2,
+    "examples": [
+      ".platformCard:nth-child(3) > .green.platformSignal",
+      ".platformCard:nth-child(5) > .green.platformSignal"
+    ]
+  },
+  {
+    "color": "rgb(67, 82, 92)",
+    "size": "11.52px",
+    "weight": "900",
+    "opacity": "1",
+    "bgs": [
+      {
+        "color": "rgba(255, 255, 255, 0.82)",
+        "image": "none"
+      },
+      {
+        "color": "rgba(0, 0, 0, 0)",
+        "image": "linear-gradient(145deg, rgb(234, 248, 255) 0%, rgb(248, 251, 255) 52%, rgb(239, 255, 220) 100%)"
+      },
+      {
+        "color": "rgb(3, 6, 9)",
+        "image": "radial-gradient(circle at 76% 7%, rgba(105, 207, 255, 0.13), rgba(0, 0, 0, 0) 448px), radial-gradient(circle at 10% 48%, rgba(255, 45, 85, 0.08), rgba(0, 0, 0, 0) 512px), none"
+      }
+    ],
+    "reason": [
+      "pseudoContent"
+    ],
+    "count": 1,
+    "examples": [
+      ".stackPanel > div:nth-child(1) > .eyebrow"
+    ]
+  },
+  {
+    "color": "rgb(5, 7, 10)",
+    "size": "21.6px",
+    "weight": "700",
+    "opacity": "1",
+    "bgs": [
+      {
+        "color": "rgba(255, 255, 255, 0.82)",
+        "image": "none"
+      },
+      {
+        "color": "rgba(0, 0, 0, 0)",
+        "image": "linear-gradient(145deg, rgb(234, 248, 255) 0%, rgb(248, 251, 255) 52%, rgb(239, 255, 220) 100%)"
+      },
+      {
+        "color": "rgb(3, 6, 9)",
+        "image": "radial-gradient(circle at 76% 7%, rgba(105, 207, 255, 0.13), rgba(0, 0, 0, 0) 448px), radial-gradient(circle at 10% 48%, rgba(255, 45, 85, 0.08), rgba(0, 0, 0, 0) 512px), none"
+      }
+    ],
+    "reason": [
+      "pseudoContent"
+    ],
+    "count": 1,
+    "examples": [
+      "div:nth-child(1) > h3"
+    ]
+  },
+  {
+    "color": "rgb(67, 82, 92)",
+    "size": "16px",
+    "weight": "400",
+    "opacity": "1",
+    "bgs": [
+      {
+        "color": "rgba(255, 255, 255, 0.82)",
+        "image": "none"
+      },
+      {
+        "color": "rgba(0, 0, 0, 0)",
+        "image": "linear-gradient(145deg, rgb(234, 248, 255) 0%, rgb(248, 251, 255) 52%, rgb(239, 255, 220) 100%)"
+      },
+      {
+        "color": "rgb(3, 6, 9)",
+        "image": "radial-gradient(circle at 76% 7%, rgba(105, 207, 255, 0.13), rgba(0, 0, 0, 0) 448px), radial-gradient(circle at 10% 48%, rgba(255, 45, 85, 0.08), rgba(0, 0, 0, 0) 512px), none"
+      }
+    ],
+    "reason": [
+      "pseudoContent"
+    ],
+    "count": 1,
+    "examples": [
+      ".stackPanel > div:nth-child(1) > p:nth-child(3)"
+    ]
+  },
+  {
+    "color": "rgb(223, 247, 255)",
+    "size": "13.76px",
+    "weight": "800",
+    "opacity": "1",
+    "bgs": [
+      {
+        "color": "rgb(5, 7, 10)",
+        "image": "none"
+      },
+      {
+        "color": "rgba(255, 255, 255, 0.82)",
+        "image": "none"
+      },
+      {
+        "color": "rgba(0, 0, 0, 0)",
+        "image": "linear-gradient(145deg, rgb(234, 248, 255) 0%, rgb(248, 251, 255) 52%, rgb(239, 255, 220) 100%)"
+      },
+      {
+        "color": "rgb(3, 6, 9)",
+        "image": "radial-gradient(circle at 76% 7%, rgba(105, 207, 255, 0.13), rgba(0, 0, 0, 0) 448px), radial-gradient(circle at 10% 48%, rgba(255, 45, 85, 0.08), rgba(0, 0, 0, 0) 512px), none"
+      }
+    ],
+    "reason": [
+      "pseudoContent"
+    ],
+    "count": 15,
+    "examples": [
+      "a[href$=\"penpot.app\"]",
+      "a[href$=\"webllm.mlc.ai\"]",
+      "a[href$=\"ollama.com\"]"
+    ]
+  },
+  {
+    "color": "rgb(5, 7, 10)",
+    "size": "16px",
+    "weight": "850",
+    "opacity": "1",
+    "bgs": [
+      {
+        "color": "rgb(255, 255, 255)",
+        "image": "none"
+      },
+      {
+        "color": "rgba(0, 0, 0, 0)",
+        "image": "linear-gradient(145deg, rgb(234, 248, 255) 0%, rgb(248, 251, 255) 52%, rgb(239, 255, 220) 100%)"
+      },
+      {
+        "color": "rgb(3, 6, 9)",
+        "image": "radial-gradient(circle at 76% 7%, rgba(105, 207, 255, 0.13), rgba(0, 0, 0, 0) 448px), radial-gradient(circle at 10% 48%, rgba(255, 45, 85, 0.08), rgba(0, 0, 0, 0) 512px), none"
+      }
+    ],
+    "reason": [
+      "pseudoContent"
+    ],
+    "count": 2,
+    "examples": [
+      "label[for=\"handoffGoal\"]",
+      "label[for=\"handoffTarget\"]"
+    ]
+  },
+  {
+    "color": "rgb(5, 7, 10)",
+    "size": "16px",
+    "weight": "400",
+    "opacity": "1",
+    "bgs": [
+      {
+        "color": "rgb(255, 255, 255)",
+        "image": "none"
+      },
+      {
+        "color": "rgb(255, 255, 255)",
+        "image": "none"
+      },
+      {
+        "color": "rgba(0, 0, 0, 0)",
+        "image": "linear-gradient(145deg, rgb(234, 248, 255) 0%, rgb(248, 251, 255) 52%, rgb(239, 255, 220) 100%)"
+      },
+      {
+        "color": "rgb(3, 6, 9)",
+        "image": "radial-gradient(circle at 76% 7%, rgba(105, 207, 255, 0.13), rgba(0, 0, 0, 0) 448px), radial-gradient(circle at 10% 48%, rgba(255, 45, 85, 0.08), rgba(0, 0, 0, 0) 512px), none"
+      }
+    ],
+    "reason": [
+      "pseudoContent"
+    ],
+    "count": 2,
+    "examples": [
+      "#handoffGoal",
+      "#handoffTarget"
+    ]
+  },
+  {
+    "color": "rgb(255, 255, 255)",
+    "size": "16px",
+    "weight": "800",
+    "opacity": "1",
+    "bgs": [
+      {
+        "color": "rgb(226, 27, 67)",
+        "image": "none"
+      },
+      {
+        "color": "rgb(255, 255, 255)",
+        "image": "none"
+      },
+      {
+        "color": "rgba(0, 0, 0, 0)",
+        "image": "linear-gradient(145deg, rgb(234, 248, 255) 0%, rgb(248, 251, 255) 52%, rgb(239, 255, 220) 100%)"
+      },
+      {
+        "color": "rgb(3, 6, 9)",
+        "image": "radial-gradient(circle at 76% 7%, rgba(105, 207, 255, 0.13), rgba(0, 0, 0, 0) 448px), radial-gradient(circle at 10% 48%, rgba(255, 45, 85, 0.08), rgba(0, 0, 0, 0) 512px), none"
+      }
+    ],
+    "reason": [
+      "pseudoContent"
+    ],
+    "count": 1,
+    "examples": [
+      ".handoffActions > .darkButton[type=\"submit\"]"
+    ]
+  },
+  {
+    "color": "rgb(245, 251, 255)",
+    "size": "16px",
+    "weight": "700",
+    "opacity": "1",
+    "bgs": [
+      {
+        "color": "rgb(5, 7, 10)",
+        "image": "none"
+      },
+      {
+        "color": "rgba(0, 0, 0, 0)",
+        "image": "linear-gradient(145deg, rgb(234, 248, 255) 0%, rgb(248, 251, 255) 52%, rgb(239, 255, 220) 100%)"
+      },
+      {
+        "color": "rgb(3, 6, 9)",
+        "image": "radial-gradient(circle at 76% 7%, rgba(105, 207, 255, 0.13), rgba(0, 0, 0, 0) 448px), radial-gradient(circle at 10% 48%, rgba(255, 45, 85, 0.08), rgba(0, 0, 0, 0) 512px), none"
+      }
+    ],
+    "reason": [
+      "pseudoContent"
+    ],
+    "count": 1,
+    "examples": [
+      ".handoffResult > div > b"
+    ]
+  },
+  {
+    "color": "rgb(216, 231, 239)",
+    "size": "15.04px",
+    "weight": "500",
+    "opacity": "1",
+    "bgs": [
+      {
+        "color": "rgb(5, 7, 10)",
+        "image": "none"
+      },
+      {
+        "color": "rgba(0, 0, 0, 0)",
+        "image": "linear-gradient(145deg, rgb(234, 248, 255) 0%, rgb(248, 251, 255) 52%, rgb(239, 255, 220) 100%)"
+      },
+      {
+        "color": "rgb(3, 6, 9)",
+        "image": "radial-gradient(circle at 76% 7%, rgba(105, 207, 255, 0.13), rgba(0, 0, 0, 0) 448px), radial-gradient(circle at 10% 48%, rgba(255, 45, 85, 0.08), rgba(0, 0, 0, 0) 512px), none"
+      }
+    ],
+    "reason": [
+      "pseudoContent"
+    ],
+    "count": 1,
+    "examples": [
+      "#handoffOutput"
+    ]
+  },
+  {
+    "color": "rgb(141, 162, 175)",
+    "size": "16px",
+    "weight": "400",
+    "opacity": "1",
+    "bgs": [
+      {
+        "color": "rgb(5, 7, 10)",
+        "image": "none"
+      },
+      {
+        "color": "rgba(0, 0, 0, 0)",
+        "image": "linear-gradient(145deg, rgb(234, 248, 255) 0%, rgb(248, 251, 255) 52%, rgb(239, 255, 220) 100%)"
+      },
+      {
+        "color": "rgb(3, 6, 9)",
+        "image": "radial-gradient(circle at 76% 7%, rgba(105, 207, 255, 0.13), rgba(0, 0, 0, 0) 448px), radial-gradient(circle at 10% 48%, rgba(255, 45, 85, 0.08), rgba(0, 0, 0, 0) 512px), none"
+      }
+    ],
+    "reason": [
+      "pseudoContent"
+    ],
+    "count": 1,
+    "examples": [
+      "#handoffStatus"
+    ]
+  },
+  {
+    "color": "rgb(255, 255, 255)",
+    "size": "16px",
+    "weight": "800",
+    "opacity": "1",
+    "bgs": [
+      {
+        "color": "rgb(226, 27, 67)",
+        "image": "none"
+      },
+      {
+        "color": "rgba(0, 0, 0, 0)",
+        "image": "linear-gradient(145deg, rgb(234, 248, 255) 0%, rgb(248, 251, 255) 52%, rgb(239, 255, 220) 100%)"
+      },
+      {
+        "color": "rgb(3, 6, 9)",
+        "image": "radial-gradient(circle at 76% 7%, rgba(105, 207, 255, 0.13), rgba(0, 0, 0, 0) 448px), radial-gradient(circle at 10% 48%, rgba(255, 45, 85, 0.08), rgba(0, 0, 0, 0) 512px), none"
+      }
+    ],
+    "reason": [
+      "pseudoContent"
+    ],
+    "count": 1,
+    "examples": [
+      ".mcpStrip > span"
+    ]
+  },
+  {
+    "color": "rgb(57, 255, 20)",
+    "size": "16px",
+    "weight": "800",
+    "opacity": "1",
+    "bgs": [
+      {
+        "color": "rgb(5, 7, 10)",
+        "image": "none"
+      },
+      {
+        "color": "rgb(226, 27, 67)",
+        "image": "none"
+      },
+      {
+        "color": "rgba(0, 0, 0, 0)",
+        "image": "linear-gradient(145deg, rgb(234, 248, 255) 0%, rgb(248, 251, 255) 52%, rgb(239, 255, 220) 100%)"
+      },
+      {
+        "color": "rgb(3, 6, 9)",
+        "image": "radial-gradient(circle at 76% 7%, rgba(105, 207, 255, 0.13), rgba(0, 0, 0, 0) 448px), radial-gradient(circle at 10% 48%, rgba(255, 45, 85, 0.08), rgba(0, 0, 0, 0) 512px), none"
+      }
+    ],
+    "reason": [
+      "pseudoContent"
+    ],
+    "count": 1,
+    "examples": [
+      "code"
+    ]
+  },
+  {
+    "color": "rgb(3, 6, 9)",
+    "size": "16px",
+    "weight": "900",
+    "opacity": "1",
+    "bgs": [
+      {
+        "color": "rgb(57, 255, 20)",
+        "image": "none"
+      },
+      {
+        "color": "rgb(226, 27, 67)",
+        "image": "none"
+      },
+      {
+        "color": "rgba(0, 0, 0, 0)",
+        "image": "linear-gradient(145deg, rgb(234, 248, 255) 0%, rgb(248, 251, 255) 52%, rgb(239, 255, 220) 100%)"
+      },
+      {
+        "color": "rgb(3, 6, 9)",
+        "image": "radial-gradient(circle at 76% 7%, rgba(105, 207, 255, 0.13), rgba(0, 0, 0, 0) 448px), radial-gradient(circle at 10% 48%, rgba(255, 45, 85, 0.08), rgba(0, 0, 0, 0) 512px), none"
+      }
+    ],
+    "reason": [
+      "pseudoContent"
+    ],
+    "count": 1,
+    "examples": [
+      "#copyMcp"
+    ]
+  },
+  {
+    "color": "rgb(226, 27, 67)",
+    "size": "32px",
+    "weight": "500",
+    "opacity": "1",
+    "bgs": [
+      {
+        "color": "rgb(3, 6, 9)",
+        "image": "radial-gradient(circle at 76% 7%, rgba(105, 207, 255, 0.13), rgba(0, 0, 0, 0) 448px), radial-gradient(circle at 10% 48%, rgba(255, 45, 85, 0.08), rgba(0, 0, 0, 0) 512px), none"
+      }
+    ],
+    "reason": [
+      "nonBmp"
+    ],
+    "count": 1,
+    "examples": [
+      "h2 > span"
+    ]
+  },
+  {
+    "color": "rgb(105, 207, 255)",
+    "size": "12.16px",
+    "weight": "800",
+    "opacity": "1",
+    "bgs": [
+      {
+        "color": "rgb(3, 6, 9)",
+        "image": "radial-gradient(circle at 76% 7%, rgba(105, 207, 255, 0.13), rgba(0, 0, 0, 0) 448px), radial-gradient(circle at 10% 48%, rgba(255, 45, 85, 0.08), rgba(0, 0, 0, 0) 512px), none"
+      }
+    ],
+    "reason": [
+      "bgGradient"
+    ],
+    "count": 1,
+    "examples": [
+      "#systemStatus"
+    ]
+  },
+  {
+    "color": "rgb(236, 249, 255)",
+    "size": "16px",
+    "weight": "850",
+    "opacity": "1",
+    "bgs": [
+      {
+        "color": "rgba(9, 18, 26, 0.94)",
+        "image": "none"
+      },
+      {
+        "color": "rgb(3, 6, 9)",
+        "image": "radial-gradient(circle at 76% 7%, rgba(105, 207, 255, 0.13), rgba(0, 0, 0, 0) 448px), radial-gradient(circle at 10% 48%, rgba(255, 45, 85, 0.08), rgba(0, 0, 0, 0) 512px), none"
+      }
+    ],
+    "reason": [
+      "bgGradient"
+    ],
+    "count": 1,
+    "examples": [
+      ".chatTop > span"
+    ]
+  },
+  {
+    "color": "rgb(2, 4, 6)",
+    "size": "19.2px",
+    "weight": "900",
+    "opacity": "1",
+    "bgs": [
+      {
+        "color": "rgb(57, 255, 20)",
+        "image": "none"
+      },
+      {
+        "color": "rgba(9, 18, 26, 0.94)",
+        "image": "none"
+      },
+      {
+        "color": "rgb(3, 6, 9)",
+        "image": "radial-gradient(circle at 76% 7%, rgba(105, 207, 255, 0.13), rgba(0, 0, 0, 0) 448px), radial-gradient(circle at 10% 48%, rgba(255, 45, 85, 0.08), rgba(0, 0, 0, 0) 512px), none"
+      }
+    ],
+    "reason": [
+      "nonBmp"
+    ],
+    "count": 1,
+    "examples": [
+      "button[aria-label=\"Send message\"] > span[aria-hidden=\"true\"]"
+    ]
+  },
+  {
+    "color": "rgb(236, 249, 255)",
+    "size": "17.6px",
+    "weight": "900",
+    "opacity": "1",
+    "bgs": [
+      {
+        "color": "rgba(3, 6, 9, 0.66)",
+        "image": "none"
+      },
+      {
+        "color": "rgb(3, 6, 9)",
+        "image": "radial-gradient(circle at 76% 7%, rgba(105, 207, 255, 0.13), rgba(0, 0, 0, 0) 448px), radial-gradient(circle at 10% 48%, rgba(255, 45, 85, 0.08), rgba(0, 0, 0, 0) 512px), none"
+      }
+    ],
+    "reason": [
+      "bgGradient"
+    ],
+    "count": 1,
+    "examples": [
+      "div:nth-child(1) > .brand[href$=\"#home\"] > span:nth-child(2)"
+    ]
+  },
+  {
+    "color": "rgb(158, 203, 226)",
+    "size": "16px",
+    "weight": "400",
+    "opacity": "1",
+    "bgs": [
+      {
+        "color": "rgba(3, 6, 9, 0.66)",
+        "image": "none"
+      },
+      {
+        "color": "rgb(3, 6, 9)",
+        "image": "radial-gradient(circle at 76% 7%, rgba(105, 207, 255, 0.13), rgba(0, 0, 0, 0) 448px), radial-gradient(circle at 10% 48%, rgba(255, 45, 85, 0.08), rgba(0, 0, 0, 0) 512px), none"
+      }
+    ],
+    "reason": [
+      "bgGradient"
+    ],
+    "count": 1,
+    "examples": [
+      "footer > div:nth-child(1) > p"
+    ]
+  },
+  {
+    "color": "rgb(169, 216, 239)",
+    "size": "14.72px",
+    "weight": "650",
+    "opacity": "1",
+    "bgs": [
+      {
+        "color": "rgba(3, 6, 9, 0.66)",
+        "image": "none"
+      },
+      {
+        "color": "rgb(3, 6, 9)",
+        "image": "radial-gradient(circle at 76% 7%, rgba(105, 207, 255, 0.13), rgba(0, 0, 0, 0) 448px), radial-gradient(circle at 10% 48%, rgba(255, 45, 85, 0.08), rgba(0, 0, 0, 0) 512px), none"
+      }
+    ],
+    "reason": [
+      "bgGradient"
+    ],
+    "count": 5,
+    "examples": [
+      ".footerLinks > a[href$=\"#market\"]",
+      ".footerLinks > a[href$=\"#tools\"]",
+      ".footerLinks > a[href$=\"#platform\"]"
+    ]
+  },
+  {
+    "color": "rgb(158, 203, 226)",
+    "size": "13.3333px",
+    "weight": "400",
+    "opacity": "1",
+    "bgs": [
+      {
+        "color": "rgba(3, 6, 9, 0.66)",
+        "image": "none"
+      },
+      {
+        "color": "rgb(3, 6, 9)",
+        "image": "radial-gradient(circle at 76% 7%, rgba(105, 207, 255, 0.13), rgba(0, 0, 0, 0) 448px), radial-gradient(circle at 10% 48%, rgba(255, 45, 85, 0.08), rgba(0, 0, 0, 0) 512px), none"
+      }
+    ],
+    "reason": [
+      "bgGradient"
+    ],
+    "count": 1,
+    "examples": [
+      "footer > small"
+    ]
+  }
+]
