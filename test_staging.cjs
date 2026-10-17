@@ -23,7 +23,12 @@ const fs=require('node:fs');
    const response=await page.goto(origin,{waitUntil:'networkidle',timeout:30000});
    assert.equal(response.status(),200);
    await page.getByRole('heading',{name:'The useful side of local.'}).waitFor();
-   assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),'horizontal overflow at '+width);
+   const layout=await page.evaluate(()=>({viewport:innerWidth,scrollWidth:document.documentElement.scrollWidth,overflow:[...document.querySelectorAll('body *')].map(e=>({tag:e.tagName,class:String(e.className),right:e.getBoundingClientRect().right,width:e.getBoundingClientRect().width})).filter(e=>e.right>innerWidth+1)}));
+   if(layout.scrollWidth>layout.viewport+1){
+    evidence.layoutFailure={width,...layout};
+    await page.screenshot({path:`evidence/staging-${width}-overflow.png`,fullPage:true});
+   }
+   assert.ok(layout.scrollWidth<=layout.viewport+1,'horizontal overflow at '+width+': '+JSON.stringify(layout));
    await page.keyboard.press('Tab');
    assert.equal(await page.evaluate(()=>document.activeElement.textContent.trim()),'Skip to content');
    const focus=await page.evaluate(()=>{const e=document.activeElement,s=getComputedStyle(e),r=e.getBoundingClientRect();return {outline:s.outlineStyle,outlineWidth:s.outlineWidth,visible:r.bottom>0&&r.right>0};});
@@ -31,7 +36,7 @@ const fs=require('node:fs');
    await page.screenshot({path:`evidence/staging-${width}-focus.png`});
    await page.keyboard.press('Enter');
    const audit=await new AxeBuilder({page}).analyze();
-   evidence.viewports.push({width,violations:audit.violations.map(v=>({id:v.id,impact:v.impact,nodes:v.nodes.map(n=>n.target)})),incomplete:audit.incomplete.map(v=>v.id),consoleErrors:errors,failedRequests,focus});
+   evidence.viewports.push({width,violations:audit.violations.map(v=>({id:v.id,impact:v.impact,nodes:v.nodes.map(n=>n.target)})),incomplete:audit.incomplete.map(v=>({id:v.id,help:v.help,nodes:v.nodes.map(n=>({target:n.target,html:n.html,summary:n.failureSummary,checks:[...n.any,...n.all,...n.none].map(c=>({id:c.id,message:c.message,data:c.data}))}))})),consoleErrors:errors,failedRequests,focus});
    await page.screenshot({path:`evidence/staging-${width}.png`,fullPage:true});
 
    const filter=page.getByRole('searchbox',{name:'Filter listings',exact:true});
