@@ -41,9 +41,11 @@ const fs=require('node:fs');
     await menu.focus();await page.keyboard.press('Enter');
     assert.equal(await menu.getAttribute('aria-expanded'),'true');
     assert.equal(await page.locator('#mainNav').isVisible(),true);
+    assert.equal(await page.evaluate(()=>document.activeElement.closest('nav')?.id),'mainNav');
     await page.keyboard.press('Tab');
     assert.equal(await page.evaluate(()=>document.activeElement.closest('nav')?.id),'mainNav');
-    await menu.focus();await page.keyboard.press('Enter');
+    await page.keyboard.press('Escape');
+    assert.equal(await page.evaluate(()=>document.activeElement.id),'menu');
     assert.equal(await menu.getAttribute('aria-expanded'),'false');
     keyboardMenu='pass';
    }
