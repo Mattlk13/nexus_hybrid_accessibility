@@ -35,6 +35,8 @@ jobs:
         run: node test_staging.cjs
       - name: Platform contrast and keyboard field focus
         run: node test_platform.cjs
+      - name: Actual integration documentation preview
+        run: node test_docs.cjs
       - uses: actions/upload-artifact@v4
         if: ${{ !cancelled() }}
         with:

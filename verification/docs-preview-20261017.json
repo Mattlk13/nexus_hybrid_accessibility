@@ -1,0 +1,45 @@
+{
+  "origin": "https://fix-no-fabricated-success-20.nexus-hybrid-devtools.pages.dev",
+  "viewports": [
+    {
+      "width": 320,
+      "status": 200,
+      "contentHash": "cdec1e2cd3ba70b764df9386673d3d73df6e037ff328b95dba493fcc8c66f07c",
+      "exactSourceHashChecked": true,
+      "securityHeaders": true,
+      "keyboardSkip": true,
+      "violations": 0,
+      "incomplete": []
+    },
+    {
+      "width": 768,
+      "status": 200,
+      "contentHash": "cdec1e2cd3ba70b764df9386673d3d73df6e037ff328b95dba493fcc8c66f07c",
+      "exactSourceHashChecked": true,
+      "securityHeaders": true,
+      "keyboardSkip": true,
+      "violations": 0,
+      "incomplete": []
+    },
+    {
+      "width": 1024,
+      "status": 200,
+      "contentHash": "cdec1e2cd3ba70b764df9386673d3d73df6e037ff328b95dba493fcc8c66f07c",
+      "exactSourceHashChecked": true,
+      "securityHeaders": true,
+      "keyboardSkip": true,
+      "violations": 0,
+      "incomplete": []
+    },
+    {
+      "width": 1440,
+      "status": 200,
+      "contentHash": "cdec1e2cd3ba70b764df9386673d3d73df6e037ff328b95dba493fcc8c66f07c",
+      "exactSourceHashChecked": true,
+      "securityHeaders": true,
+      "keyboardSkip": true,
+      "violations": 0,
+      "incomplete": []
+    }
+  ]
+}
