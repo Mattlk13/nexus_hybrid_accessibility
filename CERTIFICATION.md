@@ -2,6 +2,17 @@
 
 Decision: **HOLD**. No production deployment, merge, release publication or service purchase.
 
+## Latest verification — 2026-10-17 UTC
+
+- Actual deployed Edge staging journeys passed at 320/768/1024/1440 without a candidate HTML overlay (76.04s). Logo source fix was deployed by successful Nexus2 staging-only run 38963531519.
+- Linux Chromium CI 38990243993 correctly FAILED for real directory-card overflow at 320: scrollWidth=332, viewport=320. Diagnostics now retain dimensions, offending elements and screenshots. Nexus2 PR49 head 8d3346c fixes grid intrinsic sizing/card wrapping and is undergoing fresh staging-only deployment.
+- Manual DOM review of incomplete checks found six named generic divs without roles and the send-arrow label ambiguity. PR49 fixes those findings. Contrast remains OPEN: 772 incomplete nodes in the 320px scan, mostly gradient backgrounds, plus overlap, empty inputs and symbols. This is not a passing manual review.
+- Strengthened actual keyboard coverage: menu opens/closes with Enter, Tab reaches its navigation links, filter entry uses keyboard input and local draft save uses Space. Existing skip-link, focus, reload and directory Enter checks remain.
+- Full incomplete-node details are retained in Actions evidence rather than just rule IDs. No violation or overflow assertion was relaxed.
+- Re-run current-head Chromium after the staging source deployment. Source-candidate, Edge and Linux evidence are distinct. Full manual keyboard/contrast and screen-reader review remain required; no authenticated-app acceptance is claimed.
+
+## Prior evidence (historical)
+
 ## Resumed certification results
 
 - PASS: actual NEXUS staging marketplace search/reset, private browser-local draft save/refresh, tool-directory search, skip-link keyboard activation, visible 3px focus outline and no horizontal overflow at 320, 768, 1024 and 1440 CSS pixels.

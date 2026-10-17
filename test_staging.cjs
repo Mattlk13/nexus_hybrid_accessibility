@@ -35,19 +35,32 @@ const fs=require('node:fs');
    assert.ok(focus.visible);assert.notEqual(focus.outline,'none');assert.notEqual(focus.outlineWidth,'0px');
    await page.screenshot({path:`evidence/staging-${width}-focus.png`});
    await page.keyboard.press('Enter');
+   const menu=page.getByRole('button',{name:'Menu',exact:true});
+   let keyboardMenu='desktop navigation';
+   if(await menu.isVisible()){
+    await menu.focus();await page.keyboard.press('Enter');
+    assert.equal(await menu.getAttribute('aria-expanded'),'true');
+    assert.equal(await page.locator('#mainNav').isVisible(),true);
+    await page.keyboard.press('Tab');
+    assert.equal(await page.evaluate(()=>document.activeElement.closest('nav')?.id),'mainNav');
+    await menu.focus();await page.keyboard.press('Enter');
+    assert.equal(await menu.getAttribute('aria-expanded'),'false');
+    keyboardMenu='pass';
+   }
    const audit=await new AxeBuilder({page}).analyze();
    evidence.viewports.push({width,violations:audit.violations.map(v=>({id:v.id,impact:v.impact,nodes:v.nodes.map(n=>n.target)})),incomplete:audit.incomplete.map(v=>({id:v.id,help:v.help,nodes:v.nodes.map(n=>({target:n.target,html:n.html,summary:n.failureSummary,checks:[...n.any,...n.all,...n.none].map(c=>({id:c.id,message:c.message,data:c.data}))}))})),consoleErrors:errors,failedRequests,focus});
    await page.screenshot({path:`evidence/staging-${width}.png`,fullPage:true});
 
    const filter=page.getByRole('searchbox',{name:'Filter listings',exact:true});
-   await filter.fill('bicycle');
+   await filter.focus();await page.keyboard.type('bicycle');
    await page.getByRole('heading',{name:'Commuter bicycle',exact:true}).waitFor({state:'visible'});
    assert.equal(await page.getByRole('heading',{name:'Local moving help',exact:true}).isVisible(),false);
    await filter.fill('');
    await page.getByRole('heading',{name:'Local moving help',exact:true}).waitFor({state:'visible'});
    const field=page.getByRole('textbox',{name:'Save a private preview update',exact:true});
    await field.fill('NEXUS isolated accessibility acceptance fixture');
-   await page.getByRole('button',{name:'Save preview',exact:true}).click();
+   await page.getByRole('button',{name:'Save preview',exact:true}).focus();
+   await page.keyboard.press('Space');
    await page.reload({waitUntil:'networkidle'});
    await page.getByText('NEXUS isolated accessibility acceptance fixture',{exact:true}).waitFor({state:'visible'});
    const directory=page.getByRole('searchbox',{name:'Search the directory',exact:true});
@@ -55,7 +68,7 @@ const fs=require('node:fs');
    await directory.press('Enter');
    await page.locator('#toolCards').getByRole('heading',{name:'LibreChat',exact:true}).waitFor({state:'visible'});
    assert.equal(await page.locator('#toolCards').getByRole('heading',{name:'ChatGPT',exact:true}).isVisible(),false);
-   evidence.journeys.push({width,marketplaceSearch:'pass',privateDraftRefresh:'pass',directorySearch:'pass',skipLinkKeyboard:'pass'});
+   evidence.journeys.push({width,marketplaceSearch:'pass',privateDraftRefresh:'pass',directorySearch:'pass',skipLinkKeyboard:'pass',menuKeyboard:keyboardMenu,draftSaveKeyboard:'pass'});
    assert.deepEqual(errors,[]);assert.deepEqual(failedRequests,[]);
    await context.close();
   }
