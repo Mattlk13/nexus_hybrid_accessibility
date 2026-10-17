@@ -2,6 +2,14 @@
 
 Decision: **HOLD**. No production deployment, merge, release publication or service purchase.
 
+## Deployed follow-up — 2026-10-17 UTC
+
+Nexus2 source head 2537da6 passed validation 38991360690 and staging-only deployment/verified rollback run 38991358325. The source includes the 900px disclosure breakpoint, 320px card wrapping, named groups, logo and mobile keyboard focus/Escape fixes.
+
+Actual deployed Edge journeys at all four widths now pass in 37.23s without an overlay, with zero axe violations, console exceptions or failed requests. Evidence: verification/staging-deployed-20261017.json. Keyboard Menu/Tab/Escape and draft Save with Space pass. A new Linux Chromium run remains required for this evidence/document follow-up. The earlier Linux failures at 320 and 768 are retained as regression evidence; no overflow assertion was relaxed.
+
+MANUAL_REVIEW.md records scoped adjudication of the symbol-only send button and six named groups, plus the unresolved contrast/assistive-technology gates. The 320px contrast inventory contains 772 nodes in 82 style groups; contrast_review.cjs reproduces the inventory. It is not a passing contrast measurement.
+
 ## Latest verification — 2026-10-17 UTC
 
 - Actual deployed Edge staging journeys passed at 320/768/1024/1440 without a candidate HTML overlay (76.04s). Logo source fix was deployed by successful Nexus2 staging-only run 38963531519.
