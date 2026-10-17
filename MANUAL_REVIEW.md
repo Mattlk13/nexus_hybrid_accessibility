@@ -26,3 +26,7 @@ Resolved real pale-on-light platform heading, eyebrow and description contrast d
 ## Integration documentation preview
 
 Actual Pages preview passes HTTP 200, exact index.html source hash, strict CSP presence, keyboard skip-to-main, responsive no-overflow and zero axe violations at all four widths in Edge. A mobile long-identifier overflow was found and fixed in devtools e80aadc. Reproduce: node test_docs.cjs; optionally supply NEXUS_DOCS_EXPECTED_SHA256 for exact source comparison. Evidence: verification/docs-preview-20261017.json. This documentation acceptance does not close the application contrast/AT gates.
+
+### Deployed platform link states - 2026-10-17
+Verified actual staging after Nexus2 hover fix: default, hover and keyboard focus link colors meet the conservative 4.5:1 background-envelope test at 320, 768, 1024 and 1440 widths. Field focus and placeholder checks also pass. Evidence: verification/platform-regression-20261017.json. This scoped result does not close the remaining axe incomplete or assistive-technology reviews.
+

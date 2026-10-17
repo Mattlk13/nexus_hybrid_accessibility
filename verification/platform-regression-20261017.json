@@ -26,6 +26,23 @@
           "minimumRatio": 5.288139874268874
         }
       ],
+      "linkStates": [
+        {
+          "state": "default",
+          "color": "rgb(5, 7, 10)",
+          "minimumRatio": 11.630694040910441
+        },
+        {
+          "state": "hover",
+          "color": "rgb(23, 63, 52)",
+          "minimumRatio": 6.739040652340394
+        },
+        {
+          "state": "keyboard-focus",
+          "color": "rgb(23, 63, 52)",
+          "minimumRatio": 6.739040652340394
+        }
+      ],
       "placeholder": "rgb(82, 97, 107)",
       "focused": [
         {
@@ -73,6 +90,23 @@
           "text": "Find the right tool, shape a creator brief, then continue in ChatGPT, Gamma, LibreChat, AnythingLLM, or Langflow without giving Nexus your account credentials.",
           "color": "rgb(52, 75, 87)",
           "minimumRatio": 5.288139874268874
+        }
+      ],
+      "linkStates": [
+        {
+          "state": "default",
+          "color": "rgb(5, 7, 10)",
+          "minimumRatio": 11.630694040910441
+        },
+        {
+          "state": "hover",
+          "color": "rgb(23, 63, 52)",
+          "minimumRatio": 6.739040652340394
+        },
+        {
+          "state": "keyboard-focus",
+          "color": "rgb(23, 63, 52)",
+          "minimumRatio": 6.739040652340394
         }
       ],
       "placeholder": "rgb(82, 97, 107)",
@@ -124,6 +158,23 @@
           "minimumRatio": 5.288139874268874
         }
       ],
+      "linkStates": [
+        {
+          "state": "default",
+          "color": "rgb(5, 7, 10)",
+          "minimumRatio": 11.630694040910441
+        },
+        {
+          "state": "hover",
+          "color": "rgb(23, 63, 52)",
+          "minimumRatio": 6.739040652340394
+        },
+        {
+          "state": "keyboard-focus",
+          "color": "rgb(23, 63, 52)",
+          "minimumRatio": 6.739040652340394
+        }
+      ],
       "placeholder": "rgb(82, 97, 107)",
       "focused": [
         {
@@ -171,6 +222,23 @@
           "text": "Find the right tool, shape a creator brief, then continue in ChatGPT, Gamma, LibreChat, AnythingLLM, or Langflow without giving Nexus your account credentials.",
           "color": "rgb(52, 75, 87)",
           "minimumRatio": 5.288139874268874
+        }
+      ],
+      "linkStates": [
+        {
+          "state": "default",
+          "color": "rgb(5, 7, 10)",
+          "minimumRatio": 11.630694040910441
+        },
+        {
+          "state": "hover",
+          "color": "rgb(23, 63, 52)",
+          "minimumRatio": 6.739040652340394
+        },
+        {
+          "state": "keyboard-focus",
+          "color": "rgb(23, 63, 52)",
+          "minimumRatio": 6.739040652340394
         }
       ],
       "placeholder": "rgb(82, 97, 107)",

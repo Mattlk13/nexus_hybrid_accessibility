@@ -22,6 +22,18 @@ function rgb(s){return s.match(/[\d.]+/g).map(Number)}
   // decorative green/blue grid at its maximum composited opacity.
   const darkestBackground=[190,200,180],lightestBackground=[255,255,255];
   for(const item of text){item.minimumRatio=Math.min(ratio(rgb(item.color),darkestBackground),ratio(rgb(item.color),lightestBackground));assert.ok(item.minimumRatio>=4.5,JSON.stringify(item));}
+  const link=page.locator('#platform .sectionTop > a');
+  const linkStates=[];
+  for(const state of ['default','hover','keyboard-focus']){
+   if(state==='hover') await link.hover();
+   if(state==='keyboard-focus'){await link.focus();await page.keyboard.press('Tab');await page.keyboard.press('Shift+Tab');}
+   await link.evaluate(e=>Promise.all(e.getAnimations().map(a=>a.finished.catch(()=>{}))));
+   const color=await link.evaluate(e=>getComputedStyle(e).color);
+   const minimumRatio=Math.min(ratio(rgb(color),darkestBackground),ratio(rgb(color),lightestBackground));
+   assert.ok(minimumRatio>=4.5,'platform integration link contrast: '+JSON.stringify({state,color,minimumRatio}));
+   if(state==='keyboard-focus') assert.equal(await link.evaluate(e=>document.activeElement===e),true);
+   linkStates.push({state,color,minimumRatio});
+  }
   const placeholder=await page.locator('#handoffGoal').evaluate(e=>getComputedStyle(e,'::placeholder').color);
   assert.ok(ratio(rgb(placeholder),[255,255,255])>=4.5,'handoff placeholder contrast');
   const focused=[];
@@ -32,7 +44,7 @@ function rgb(s){return s.match(/[\d.]+/g).map(Number)}
    focused.push({selector,...result});
   }
   await page.locator('#platform').screenshot({path:'evidence/platform-'+width+'.png'});
-  evidence.widths.push({width,text,placeholder,focused});await page.close();
+  evidence.widths.push({width,text,linkStates,placeholder,focused});await page.close();
  }
  console.log('PASS: platform contrast bounds, placeholder contrast, keyboard field focus at four widths');
  }finally{fs.mkdirSync('evidence',{recursive:true});fs.writeFileSync('evidence/platform-regression.json',JSON.stringify(evidence,null,2));await browser.close();}
